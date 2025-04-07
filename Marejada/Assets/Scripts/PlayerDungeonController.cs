@@ -117,6 +117,15 @@ namespace Unity.FPS.Gameplay {
             }
         }
 
+        bool selectNewNode() {
+            int selected_node = m_InputHandler.GetSelectWeaponInput() - 1;
+            if (selected_node >= 0) { // Si es -1 es que no se ha pulsado
+                m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[selected_node];
+                return true;
+            }
+            return false;
+        }
+
         // Gets the center point of the bottom hemisphere of the character controller capsule    
         Vector3 GetCapsuleBottomHemisphere()
         {
