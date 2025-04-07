@@ -5,7 +5,7 @@ using UnityEngine.Events;
 namespace Unity.FPS.Gameplay {
 
     [RequireComponent(typeof(CharacterController), typeof(PlayerInputHandler), typeof(AudioSource))]
-    public class PlagerDungeonController : MonoBehaviour {
+    public class PlayerDungeonController : MonoBehaviour {
 
         [Header("References")] [Tooltip("Reference to the main camera used for the player")]
         public Camera PlayerCamera;
