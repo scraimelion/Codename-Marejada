@@ -74,6 +74,10 @@ namespace Unity.FPS.Gameplay {
 
         void HandleCharacterMovement()
         {
+            if(!m_EnTransito) {
+                m_EnTransito = selectNewNode();
+                return;
+            }
             // calcula la dirección en la que se debe mover
             if (m_MovementDirection.magnitude < MAG_THRESHOLD) { // TODO: Condición para que recalcule la dirección a la que se debe mover.
                 Vector3 destino = m_NodoDestino.transform.position;
@@ -108,19 +112,16 @@ namespace Unity.FPS.Gameplay {
 
         void OnTriggerEnter(Collider other) {
             m_EnTransito = false;
-
-            if (true) {
-                m_NodoActual = m_NodoDestino;
-                m_NodoDestino = m_NodoDestino.GetComponent<NodoCamino>().neighborNodes[0];
-
-                m_MovementDirection = new Vector3();
-            }
+            m_NodoActual = m_NodoDestino;
+            Debug.Log("PUEDES SELECCIONAR ESTE NUM DE NODOS: " + m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length);
         }
 
         bool selectNewNode() {
             int selected_node = m_InputHandler.GetSelectWeaponInput() - 1;
-            if (selected_node >= 0) { // Si es -1 es que no se ha pulsado
+            if (selected_node >= 0 && selected_node < m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length) { // Si es -1 es que no se ha pulsado
                 m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[selected_node];
+                m_MovementDirection = new Vector3();
+                Debug.Log("HAS SELECCIONADO " + selected_node);
                 return true;
             }
             return false;
