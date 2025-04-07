@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class NodoCamino : MonoBehaviour
 {
-    [SerializeField]
-    GameObject[] neighborNodes;
+    public GameObject[] neighborNodes;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

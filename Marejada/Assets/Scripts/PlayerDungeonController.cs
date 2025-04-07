@@ -7,6 +7,8 @@ namespace Unity.FPS.Gameplay {
     [RequireComponent(typeof(CharacterController), typeof(PlayerInputHandler), typeof(AudioSource))]
     public class PlayerDungeonController : MonoBehaviour {
 
+        const float MAG_THRESHOLD = 0.01f;
+
         [Header("References")] [Tooltip("Reference to the main camera used for the player")]
         public Camera PlayerCamera;
 
@@ -22,15 +24,18 @@ namespace Unity.FPS.Gameplay {
         public Vector3 CharacterVelocity { get; set; }
 
         [SerializeField]
-        float test;
+        GameObject m_NodoInicial = null;
 
         PlayerInputHandler m_InputHandler;
         CharacterController m_Controller;
         Actor m_Actor;
-        Vector3 m_CharacterVelocity;
+        Vector3 m_MovementDirection;
         float m_CameraVerticalAngle = 0f;
         float m_FootstepDistanceCounter;
         float m_TargetCharacterHeight;
+        bool m_EnTransito = true;
+        GameObject m_NodoActual;
+        GameObject m_NodoDestino;
 
         void Awake()
         {
@@ -50,6 +55,16 @@ namespace Unity.FPS.Gameplay {
             DebugUtility.HandleErrorIfNullGetComponent<PlayerInputHandler, PlayerCharacterController>(m_InputHandler,
                 this, gameObject);
 
+            if (m_NodoInicial) {
+                float x = m_NodoInicial.transform.position.x;
+                float y = m_NodoInicial.transform.position.y;
+                float z = m_NodoInicial.transform.position.z;
+                //m_Controller.transform.position = new Vector3(x,y,z);
+                m_NodoActual = m_NodoInicial;
+                m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[0];
+            }
+
+            m_MovementDirection = new Vector3();
         }
 
         // Update is called once per frame
@@ -59,11 +74,19 @@ namespace Unity.FPS.Gameplay {
 
         void HandleCharacterMovement()
         {
+            // calcula la dirección en la que se debe mover
+            if (m_MovementDirection.magnitude < MAG_THRESHOLD) { // TODO: Condición para que recalcule la dirección a la que se debe mover.
+                Vector3 destino = m_NodoDestino.transform.position;
+                m_MovementDirection = destino - m_NodoActual.transform.position;
+                m_MovementDirection.Normalize();
+            }
+
             // converts move input to a worldspace vector based on our character's transform orientation
             Vector3 worldspaceMoveInput = transform.TransformVector(m_InputHandler.GetMoveInput());
 
             if (worldspaceMoveInput.x != 0) {
-                CharacterVelocity = Vector3.right * worldspaceMoveInput.x * tileMovement;
+                CharacterVelocity = m_MovementDirection * worldspaceMoveInput.x * tileMovement;
+                //Debug.Log("aaaa");
             }
             else {
                 CharacterVelocity = new Vector3();
@@ -71,7 +94,6 @@ namespace Unity.FPS.Gameplay {
 
             Vector3 capsuleBottomBeforeMove = GetCapsuleBottomHemisphere();
             Vector3 capsuleTopBeforeMove = GetCapsuleTopHemisphere(m_Controller.height);
-            m_Controller.Move(CharacterVelocity * Time.deltaTime);
 
             // detect obstructions to adjust velocity accordingly
             if (Physics.CapsuleCast(capsuleBottomBeforeMove, capsuleTopBeforeMove, m_Controller.radius,
@@ -79,6 +101,19 @@ namespace Unity.FPS.Gameplay {
                 QueryTriggerInteraction.Ignore))
             {
                 CharacterVelocity = Vector3.ProjectOnPlane(CharacterVelocity, hit.normal);
+            }
+
+            m_Controller.Move(CharacterVelocity * Time.deltaTime);
+        }
+
+        void OnTriggerEnter(Collider other) {
+            m_EnTransito = false;
+
+            if (true) {
+                m_NodoActual = m_NodoDestino;
+                m_NodoDestino = m_NodoDestino.GetComponent<NodoCamino>().neighborNodes[0];
+
+                m_MovementDirection = new Vector3();
             }
         }
 
