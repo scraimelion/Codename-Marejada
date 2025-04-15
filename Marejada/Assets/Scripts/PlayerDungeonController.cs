@@ -1,6 +1,7 @@
 using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.Events;
+//using Cinemachine;
 
 namespace Unity.FPS.Gameplay {
 
@@ -18,6 +19,12 @@ namespace Unity.FPS.Gameplay {
         [Header("Movement")] [Tooltip("Max movement speed when grounded (when not sprinting)")]
         public float tileMovement = 10f;
 
+        [Header("Rotation")] [Tooltip("Rotation speed for moving the camera")]
+        public float RotationSpeed = 200f;
+
+        [Range(0.1f, 1f)] [Tooltip("Rotation speed multiplier when aiming")]
+        public float RotationMultiplier = 0.6f;
+
         [Tooltip("Sound played for footsteps")]
         public AudioClip FootstepSfx;
 
@@ -34,6 +41,7 @@ namespace Unity.FPS.Gameplay {
         float m_FootstepDistanceCounter;
         float m_TargetCharacterHeight;
         bool m_EnTransito = true;
+        GameObject m_CameraFollow;
         GameObject m_NodoActual;
         GameObject m_NodoDestino;
 
@@ -59,25 +67,45 @@ namespace Unity.FPS.Gameplay {
                 float x = m_NodoInicial.transform.position.x;
                 float y = m_NodoInicial.transform.position.y;
                 float z = m_NodoInicial.transform.position.z;
-                //m_Controller.transform.position = new Vector3(x,y,z);
+
+                m_CameraFollow = m_NodoInicial.transform.GetChild(0).gameObject;
+                m_CameraFollow.SetActive(true);
                 m_NodoActual = m_NodoInicial;
                 m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[0];
             }
 
             m_MovementDirection = new Vector3();
+
         }
 
         // Update is called once per frame
         void Update() {
-            HandleCharacterMovement();
-        }
+            HandleCameraPosition();
 
-        void HandleCharacterMovement()
-        {
             if(!m_EnTransito) {
                 m_EnTransito = selectNewNode();
                 return;
             }
+
+            HandleCharacterMovement();
+        }
+
+        void HandleCameraPosition()
+        {
+            // vertical camera rotation
+            // add vertical inputs to the camera's vertical angle
+            m_CameraVerticalAngle += m_InputHandler.GetLookInputsVertical() * RotationSpeed * RotationMultiplier;
+
+            // limit the camera's vertical angle to min/max
+            //m_CameraVerticalAngle = Mathf.Clamp(m_CameraVerticalAngle, -89f, 89f);
+
+            // apply the vertical angle as a local rotation to the camera transform along its right axis (makes it pivot up and down)
+            //m_CameraFollow.transform.position = new Vector3(0, m_CameraVerticalAngle, 0);
+
+        }
+
+        void HandleCharacterMovement()
+        {
             // calcula la dirección en la que se debe mover
             if (m_MovementDirection.magnitude < MAG_THRESHOLD) { // TODO: Condición para que recalcule la dirección a la que se debe mover.
                 Vector3 destino = m_NodoDestino.transform.position;
@@ -112,7 +140,10 @@ namespace Unity.FPS.Gameplay {
 
         void OnTriggerEnter(Collider other) {
             m_EnTransito = false;
+            m_CameraFollow.SetActive(false);
             m_NodoActual = m_NodoDestino;
+            m_CameraFollow = m_NodoActual.transform.GetChild(0).gameObject;
+            m_CameraFollow.SetActive(true);
             Debug.Log("PUEDES SELECCIONAR ESTE NUM DE NODOS: " + m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length);
         }
 
