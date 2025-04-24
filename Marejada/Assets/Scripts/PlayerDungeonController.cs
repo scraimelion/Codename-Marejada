@@ -44,6 +44,7 @@ namespace Unity.FPS.Gameplay {
         GameObject m_CameraFollow;
         GameObject m_NodoActual;
         GameObject m_NodoDestino;
+        GameObject m_modeloPersonaje;
 
         void Awake()
         {
@@ -73,6 +74,8 @@ namespace Unity.FPS.Gameplay {
                 m_NodoActual = m_NodoInicial;
                 m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[0];
             }
+            m_modeloPersonaje = GameObject.Find("PlayerModel");
+
 
             m_MovementDirection = new Vector3();
 
@@ -111,6 +114,7 @@ namespace Unity.FPS.Gameplay {
                 Vector3 destino = m_NodoDestino.transform.position;
                 m_MovementDirection = destino - m_NodoActual.transform.position;
                 m_MovementDirection.Normalize();
+                m_modeloPersonaje.transform.LookAt(destino + m_NodoDestino.transform.up);
             }
 
             // converts move input to a worldspace vector based on our character's transform orientation
