@@ -143,9 +143,13 @@ namespace Unity.FPS.Gameplay {
         }
 
         void OnTriggerEnter(Collider other) {
+            if (other.tag != "Camino") {
+                return;
+            }
+
             m_EnTransito = false;
             m_CameraFollow.SetActive(false);
-            m_NodoActual = m_NodoDestino;
+            m_NodoActual = other.gameObject;
             m_CameraFollow = m_NodoActual.transform.GetChild(0).gameObject;
             m_CameraFollow.SetActive(true);
             Debug.Log("PUEDES SELECCIONAR ESTE NUM DE NODOS: " + m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length);
