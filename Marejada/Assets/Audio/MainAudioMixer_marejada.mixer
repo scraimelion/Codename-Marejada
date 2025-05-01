@@ -216,7 +216,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DamageTick
+  m_Name: Typing
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 79250a09cc1a6534ebca73c89a2b239b
   m_Children: []
