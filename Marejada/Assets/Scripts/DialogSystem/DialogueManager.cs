@@ -34,8 +34,9 @@ namespace DialogueSystem
 
         private void Update()
         {
+            IsDialogStartAction = Input.GetMouseButtonDown(0);
             // Si el diálogo está activo y se hace clic, avanzar o mostrar texto completo
-            if (IsDialogInProgress && !isEndingDialogue && Input.GetMouseButtonDown(0))
+            if (IsDialogInProgress && !isEndingDialogue && IsDialogStartAction)
             {
                 if (isTypingDialogTurn)
                 {
@@ -54,6 +55,7 @@ namespace DialogueSystem
 
         // Propiedad pública que indica si el diálogo está activo
         public bool IsDialogInProgress { get; private set; } = false;
+        public bool IsDialogStartAction { get; private set; } = false;
 
         public void StartDialogue(DialogueRoundSO dialog)
         {

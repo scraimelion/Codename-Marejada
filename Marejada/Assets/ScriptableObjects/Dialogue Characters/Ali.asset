@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ali
   m_EditorClassIdentifier: 
   characterName: Ali
-  profilePhoto: {fileID: -3296445353378122412, guid: 79544c6cdaba749998d2847b6b8fb643, type: 3}
+  profilePhoto: {fileID: 21300000, guid: 7fae1c8ea85af404fabd5828dc08eaac, type: 3}
   emotions:
   - emotionName: Angry
     emotionSprite: {fileID: 21300000, guid: 7fae1c8ea85af404fabd5828dc08eaac, type: 3}

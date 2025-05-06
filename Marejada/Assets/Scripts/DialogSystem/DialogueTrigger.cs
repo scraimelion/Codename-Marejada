@@ -11,8 +11,24 @@ namespace DialogueSystem
         // Referencia al ScriptableObject que contiene la ronda de diálogo que se debe reproducir.
         [SerializeField] private DialogueRoundSO dialogue;
 
+
+        private bool StartDialogueEvent;
+
+        private void Start()
+        {
+            StartDialogueEvent = false;
+        }
+        private void Update()
+        {
+            if (StartDialogueEvent && DialogueManager.Instance.IsDialogStartAction) {
+                TriggerDialogue();
+                StartDialogueEvent = false;
+            }
+        }
+        
         // Permite ejecutar manualmente el diálogo desde el menú contextual del editor.
         [ContextMenu("Trigger Dialogue")]
+
         public void TriggerDialogue()
         {
             // Si ya hay un diálogo en curso, no hace nada para evitar interrupciones.
@@ -30,9 +46,8 @@ namespace DialogueSystem
         // Si el objeto que entra tiene el tag "Player", se dispara el diálogo.
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Player"))
-            {
-                TriggerDialogue();
+            if (other.CompareTag("Player")) {
+                StartDialogueEvent = true;
             }
         }
     }
