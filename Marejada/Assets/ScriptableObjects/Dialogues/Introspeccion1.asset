@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: Introspeccion1
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: OIIAOIIA
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "C\xF3mo"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: OIIAOIIIIAOIIAOIIA
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: Mejor os dejo a lo vuestro.
+  - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
+      type: 2}
+    dialogLine: "Hola yo tambi\xE9n estoy aqu\xED"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: Dilo tata
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: Holaaa

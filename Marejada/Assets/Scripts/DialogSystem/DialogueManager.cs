@@ -32,6 +32,10 @@ namespace DialogueSystem
         private bool isTypingDialogTurn = false;            // ¿Se está escribiendo una línea actualmente?
         private bool isEndingDialogue = false;              // ¿El diálogo está terminando (para evitar múltiples animaciones)?
 
+
+        void Start () {
+            Cursor.visible = true;
+        }
         private void Update()
         {
             IsDialogStartAction = Input.GetMouseButtonDown(0);

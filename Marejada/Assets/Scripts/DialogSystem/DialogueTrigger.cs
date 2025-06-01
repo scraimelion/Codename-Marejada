@@ -50,5 +50,12 @@ namespace DialogueSystem
                 StartDialogueEvent = true;
             }
         }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.CompareTag("Player")) {
+                StartDialogueEvent = false;
+            }
+        }
     }
 }

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Material_cel 4
+  m_Name: Material_cel 8
   m_Shader: {fileID: -6465566751694194690, guid: 72fbe079fad6e1c45b5fd370d651e757,
     type: 3}
   m_Parent: {fileID: 2100000, guid: 28cfd940d4b0250448130c2888d26a0d, type: 2}
@@ -26,9 +26,12 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _Max: 3.2
+    - _Min: 0.03
+    - _Shades: 0.05
     m_Colors:
-    - _Color: {r: 0.9058824, g: 0.44705886, b: 0.44705886, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7113114223440273173

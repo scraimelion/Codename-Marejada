@@ -1,7 +1,6 @@
 using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.Events;
-//using Cinemachine;
 
 namespace Unity.FPS.Gameplay {
 
@@ -40,6 +39,7 @@ namespace Unity.FPS.Gameplay {
         float m_CameraVerticalAngle = 0f;
         float m_FootstepDistanceCounter;
         float m_TargetCharacterHeight;
+        bool m_OutOfTrigger = false;
         bool m_EnTransito = true;
         GameObject m_CameraFollow;
         GameObject m_NodoActual;
@@ -120,7 +120,7 @@ namespace Unity.FPS.Gameplay {
             // converts move input to a worldspace vector based on our character's transform orientation
             Vector3 worldspaceMoveInput = transform.TransformVector(m_InputHandler.GetMoveInput());
 
-            if (worldspaceMoveInput.x != 0) {
+            if (worldspaceMoveInput.x > 0 || (worldspaceMoveInput.x < 0 && m_OutOfTrigger)) {
                 CharacterVelocity = m_MovementDirection * worldspaceMoveInput.x * tileMovement;
                 //Debug.Log("aaaa");
             }
@@ -146,13 +146,21 @@ namespace Unity.FPS.Gameplay {
             if (other.tag != "Camino") {
                 return;
             }
-
+            m_OutOfTrigger = false;
             m_EnTransito = false;
             m_CameraFollow.SetActive(false);
             m_NodoActual = other.gameObject;
             m_CameraFollow = m_NodoActual.transform.GetChild(0).gameObject;
             m_CameraFollow.SetActive(true);
             Debug.Log("PUEDES SELECCIONAR ESTE NUM DE NODOS: " + m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length);
+        }
+
+        void OnTriggerExit(Collider other) {
+            if (other.tag != "Camino") {
+                return;
+            }
+
+            m_OutOfTrigger = true;
         }
 
         bool selectNewNode() {
