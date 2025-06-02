@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: New Dialogue 1
   m_EditorClassIdentifier: 
   dialogTurnsList:
-  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
-      type: 2}
-    dialogLine: OIIAOIIA
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "C\xF3mo"
@@ -34,3 +31,6 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
     dialogLine: Holaaa
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: AHORA APARECE LE CAPITANE

@@ -3566,6 +3566,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 3914aeb6718d56b42924c5ef255e8098, type: 2}
+  DialogEvents:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1875698808}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!54 &638795364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8480,6 +8495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CapitaNepo
       objectReference: {fileID: 0}
+    - target: {fileID: 3255305145397885300, guid: 241269614ff6de84989736f0bcbc2038,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9050,6 +9070,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a88430c1dd774944a9a9d92b2d2dfbb, type: 3}
+--- !u!1 &1875698808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3255305145397885300, guid: 241269614ff6de84989736f0bcbc2038,
+    type: 3}
+  m_PrefabInstance: {fileID: 1793127996}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1914979495
 PrefabInstance:
   m_ObjectHideFlags: 0

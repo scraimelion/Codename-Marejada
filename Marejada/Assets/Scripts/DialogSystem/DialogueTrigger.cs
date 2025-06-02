@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine.Events;
 
 namespace DialogueSystem
 {
@@ -10,6 +12,7 @@ namespace DialogueSystem
     {
         // Referencia al ScriptableObject que contiene la ronda de diálogo que se debe reproducir.
         [SerializeField] private DialogueRoundSO dialogue;
+        [SerializeField] private UnityEvent DialogEvents;
 
 
         private bool StartDialogueEvent;
@@ -37,6 +40,7 @@ namespace DialogueSystem
 
             // Llama al DialogueManager para comenzar el diálogo definido.
             DialogueManager.Instance.StartDialogue(dialogue);
+            DialogEvents.Invoke();
         }
 
         // Método que permite reemplazar el diálogo actual con uno nuevo (útil si se quiere cambiar el diálogo desde otro script).
