@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2770146899781984345}
   - component: {fileID: 4853624266770235017}
+  - component: {fileID: 1340275965065815175}
   m_Layer: 0
   m_Name: Walter
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,6 +55,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 1, z: 2}
   m_Center: {x: 0, y: 0.52, z: 0}
+--- !u!114 &1340275965065815175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255305145397885300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b5bfd44963fae41896fc006ed15ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 0}
+  DialogEvents:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4774088905459491926
 GameObject:
   m_ObjectHideFlags: 0
@@ -83,9 +100,9 @@ Transform:
   m_GameObject: {fileID: 4774088905459491926}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.78, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0.507, z: 0}
+  m_LocalScale: {x: 2.4319, y: 1.70233, z: 2.4319}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2770146899781984345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -134,7 +151,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 88c8405baa47df34e9f02be324dac921, type: 2}
+  - {fileID: 2100000, guid: a5f9bc5881d9fac4aa48c027323222d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -32,10 +32,15 @@ namespace DialogueSystem
         private bool isTypingDialogTurn = false;            // ¿Se está escribiendo una línea actualmente?
         private bool isEndingDialogue = false;              // ¿El diálogo está terminando (para evitar múltiples animaciones)?
 
+
+        void Start () {
+            Cursor.visible = true;
+        }
         private void Update()
         {
+            IsDialogStartAction = Input.GetMouseButtonDown(0);
             // Si el diálogo está activo y se hace clic, avanzar o mostrar texto completo
-            if (IsDialogInProgress && !isEndingDialogue && Input.GetMouseButtonDown(0))
+            if (IsDialogInProgress && !isEndingDialogue && IsDialogStartAction)
             {
                 if (isTypingDialogTurn)
                 {
@@ -54,6 +59,7 @@ namespace DialogueSystem
 
         // Propiedad pública que indica si el diálogo está activo
         public bool IsDialogInProgress { get; private set; } = false;
+        public bool IsDialogStartAction { get; private set; } = false;
 
         public void StartDialogue(DialogueRoundSO dialog)
         {

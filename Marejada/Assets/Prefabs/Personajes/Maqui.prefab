@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2770146899781984345}
   - component: {fileID: 4853624266770235017}
+  - component: {fileID: 1250139367224640816}
   m_Layer: 0
   m_Name: Maqui
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,6 +55,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 1, z: 2}
   m_Center: {x: 0, y: 0.52, z: 0}
+--- !u!114 &1250139367224640816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255305145397885300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b5bfd44963fae41896fc006ed15ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 0}
+  DialogEvents:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4774088905459491926
 GameObject:
   m_ObjectHideFlags: 0
