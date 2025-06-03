@@ -93,8 +93,10 @@ namespace Unity.FPS.Gameplay {
         // Update is called once per frame
         void Update() {
             HandleCameraPosition();
+            Cursor.visible = true;
 
-            if(!m_EnTransito) {
+            if (!m_EnTransito)
+            {
                 m_EnTransito = selectNewNode();
                 return;
             }
