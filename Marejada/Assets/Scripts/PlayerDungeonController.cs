@@ -93,11 +93,11 @@ namespace Unity.FPS.Gameplay {
         // Update is called once per frame
         void Update() {
             HandleCameraPosition();
-            Cursor.visible = true;
+            //Cursor.visible = true;
 
             if (!m_EnTransito)
             {
-                m_EnTransito = selectNewNode();
+                //m_EnTransito = selectNewNode();
                 return;
             }
 
@@ -186,6 +186,26 @@ namespace Unity.FPS.Gameplay {
             m_OutOfTrigger = true;
         }
 
+        public void SelectNewNodeArrow(int selected)
+        {
+            int selected_node = selected;
+            if (selected_node >= 0 && selected_node < m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length)
+            {
+                m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[selected_node];
+                m_MovementDirection = new Vector3();
+
+                foreach (GameObject flecha in FlechasNav)
+                {
+                    flecha.SetActive(false);
+                }
+                Debug.Log("HAS SELECCIONADO " + selected_node);
+                m_EnTransito = true;
+                return;
+            }
+            m_EnTransito = false;
+            return;
+        }
+
         bool selectNewNode() {
             int selected_node = m_InputHandler.GetSelectWeaponInput() - 1;
             if (selected_node >= 0 && selected_node < m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length) { // Si es -1 es que no se ha pulsado
@@ -195,7 +215,7 @@ namespace Unity.FPS.Gameplay {
                 foreach (GameObject flecha in FlechasNav) {
                     flecha.SetActive(false);
                 }
-                Debug.Log("HAS SELECCIONADO " + selected_node);
+                //Debug.Log("HAS SELECCIONADO " + selected_node);
                 return true;
             }
             return false;
