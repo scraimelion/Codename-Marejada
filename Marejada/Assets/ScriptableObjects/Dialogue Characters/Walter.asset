@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Walter
   m_EditorClassIdentifier: 
   characterName: WBGG-v3.ino
-  profilePhoto: {fileID: 21300000, guid: e45b23efd7a73174eb67057b6556936a, type: 3}
+  profilePhoto: {fileID: 21300000, guid: 5bb07ad5b44663343a44295e38e226d8, type: 3}
   emotions:
   - emotionName: Angry
     emotionSprite: {fileID: 21300000, guid: ea0bd3d3911abcd4794f49e9282d378b, type: 3}

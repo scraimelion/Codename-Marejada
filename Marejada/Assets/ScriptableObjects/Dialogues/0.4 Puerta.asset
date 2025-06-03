@@ -17,7 +17,8 @@ MonoBehaviour:
       type: 2}
     dialogLine: "*A ver si salen ya de una vez, que para algo he montado este campamento
       de ensue\xF1o\u2026*"
-  - <Character>k__BackingField: {fileID: 0}
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
     dialogLine: "Cocinere?? En nombre de esta nuestra tripulaci\xF3n te informo de
       que, tras una ardua deliberaci\xF3n, se ha decidido proceder a una reconciliaci\xF3n
       con tu persona a pesar de que tus largas duchas hayan acabado secando el mar.
@@ -49,10 +50,15 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 0}
     dialogLine: "No, es que\u2026 Esa mermelada es especial\u2026 Y seguro que est\xE1
       caducada\u2026 No me hagan abrirla, por favor\u2026\r\n"
-  - <Character>k__BackingField: {fileID: 0}
-    dialogLine: "A nosotres nos da igual. Si total, comemos ondas de sonido. Pero
-      tomar un poco el aire no nos vendr\xEDa mal. Hace como 154 a\xF1os que no salimos
-      del barco.\r\n"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: 'A nosotres nos da igual. Si total, comemos ondas de sonido.
+
+'
+  - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
+      type: 2}
+    dialogLine: "Pero tomar un poco el aire no nos vendr\xEDa mal. Hace como 154
+      a\xF1os que no salimos del barco."
   - <Character>k__BackingField: {fileID: 0}
     dialogLine: "Basta de ch\xE1chara, a saber de d\xF3nde ha salido esa mermelada
       manoseada, bajamos ya y que vaya preparando la cena le friegapl\u2026 le Cocinere."

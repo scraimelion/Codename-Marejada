@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 472c8229ed275a24db883d191ba731cf, type: 3}
-  m_Name: Nista
+  m_Name: "Pachim\xFA"
   m_EditorClassIdentifier: 
-  characterName: Nista
-  profilePhoto: {fileID: 21300000, guid: 383fb0cc1a65aa54187ca80be5b746c0, type: 3}
-  emotions: []
+  characterName: "Pachim\xFA"
+  profilePhoto: {fileID: 21300000, guid: 0e0eb1dfba3ef6649adf54b64844b851, type: 3}
+  emotions:
+  - emotionName: Angry
+    emotionSprite: {fileID: 21300000, guid: ea0bd3d3911abcd4794f49e9282d378b, type: 3}
