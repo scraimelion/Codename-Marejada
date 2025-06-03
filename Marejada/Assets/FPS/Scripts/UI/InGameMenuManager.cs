@@ -65,8 +65,8 @@ namespace Unity.FPS.UI
             // Lock cursor when clicking outside of menu
             if (!MenuRoot.activeSelf && Input.GetMouseButtonDown(0))
             {
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
+                //Cursor.lockState = CursorLockMode.Locked;
+                //Cursor.visible = false;
             }
 
             if (Input.GetKeyDown(KeyCode.Escape))
@@ -118,8 +118,8 @@ namespace Unity.FPS.UI
             }
             else
             {
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
+                //Cursor.lockState = CursorLockMode.Locked;
+                //Cursor.visible = false;
                 Time.timeScale = 1f;
                 AudioUtility.SetMasterVolume(1);
             }

@@ -38,6 +38,7 @@ namespace DialogueSystem
             if (DialogueManager.Instance.IsDialogInProgress) 
                 return;
 
+            Debug.Log(dialogue.name);
             // Llama al DialogueManager para comenzar el diálogo definido.
             DialogueManager.Instance.StartDialogue(dialogue);
             DialogEvents.Invoke();

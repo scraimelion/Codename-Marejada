@@ -23,7 +23,7 @@ namespace FullscreenEditor {
                     if (!EditorApplication.isPaused && gameView && gameView.IsOfType(Types.GameView) && gameView.HasMethod("AllowCursorLockAndHide")) {
                         gameView.InvokeMethod("AllowCursorLockAndHide", true);
                         Unsupported.SetAllowCursorHide(true);
-                        Cursor.visible = cursorVisible;
+                        //Cursor.visible = cursorVisible;
                     }
                 });
             };
