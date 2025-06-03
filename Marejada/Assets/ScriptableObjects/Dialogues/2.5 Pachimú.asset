@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: "2.5 Pachim\xFA"
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "oye... cocinere\u2026 \xBFt\xFA has estado explorando un poco este
+      lugar\u2026 no?\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Bueno, me di unos paseos estos d\xEDas en los que nadie quer\xEDa
+      salir del barco. No es que te pierdas nada, lo m\xE1s interesante que he visto
+      son esos \xE1rboles."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "ah\u2026 ya\u2026\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFEst\xE1s bien, Pachim\xFA?\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "bueno\u2026 quer\xEDa pedirte\u2026 \xBFsi de casualidad encuentras
+      mermelada en tus paseos\u2026 me traer\xE1s un poquito? echo tanto de menos
+      tomar tostadas con mermelada y t\xE9\u2026 \r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*Claro, seguro que me encuentro una mazmorra en mitad de la nada
+      con une dragone jubilade cuyo tesoro es un cofre de mermelada.*\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "cuando era ni\xF1e sol\xEDa ir con une amiguite m\xEDe al bosque
+      a tomar mermelada y contar estrellas\u2026 su favorita era la de frambuesa\u2026\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "una vez me perd\xED, no sabes qu\xE9 susto\u2026 cuando entr\xE9
+      en el bosque para buscar a mi amiguite hab\xEDa una niebla tan espesa que no
+      ve\xEDa ni mis pies\u2026 acab\xE9 cayendo al r\xEDo\u2026 pens\xE9 que me
+      ahogaba\u2026\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFY c\xF3mo saliste del agua?\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "ah.. no s\xE9\u2026 alguien me arrastr\xF3 a la orilla sobre su
+      lomo\u2026 a\xFAn no s\xE9 qu\xE9 era\u2026 tambi\xE9n vi un caballo blanco\u2026
+      no s\xE9 muy bien por qu\xE9 estaba ah\xED\u2026 \xA1Y casi pierdo mi mermelada!
+      \r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*Esa ser\xEDa la vedadera cat\xE1strofe\u2026*\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "por suerte pude encontrar a mi amigue\u2026 ya ten\xEDa el t\xE9
+      preparado pero estaba ya casi fr\xEDo...\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "no le veo desde que entr\xE9 en este barco\u2026 espero que est\xE9
+      bien\u2026 me pregunto si elle tendr\xE1 agua para prepararse un tecito\u2026"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Te entiendo tanto, Pachim\xFA\u2026 No hay nada peor que beberse
+      el t\xE9 fr\xEDo."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "a\xFAn me queda un poquito de t\xE9\u2026 tambi\xE9n tengo este
+      tarrito\u2026 he pensado en abrirlo muchas veces pero es lo \xFAltimo que me
+      queda de elle\u2026  "
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "si tan s\xF3lo encontrase un poquito de mermelada antes de que el
+      mundo se acabe\u2026 si la encuentras podemos ir a contar las estrellas\u2026"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "*Creo que deber\xEDa haber sido menos juzgone\u2026*"
