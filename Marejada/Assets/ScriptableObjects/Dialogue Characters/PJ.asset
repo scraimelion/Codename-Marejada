@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 472c8229ed275a24db883d191ba731cf, type: 3}
   m_Name: PJ
   m_EditorClassIdentifier: 
-  characterName: YN
+  characterName: Cocinere
   profilePhoto: {fileID: 21300000, guid: ea0bd3d3911abcd4794f49e9282d378b, type: 3}
   emotions:
   - emotionName: Angry
