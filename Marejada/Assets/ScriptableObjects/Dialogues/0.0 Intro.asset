@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 0.0 Intro
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "La Odisea 5.4 se cae a pedazos, incluso desde aqu\xED puedo ver
+      todos los parches \xBFSer\xE1 esto por la larga vida que ha tenido el barco
+      o el s\xEDntoma de una tripulaci\xF3n fragmentada? \r\nRespira, conc\xE9ntrate,
+      a ver hagamos un repaso. "
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Era un martes cualquiera, estaba duch\xE1ndome antes de mi eterna
+      jornada laboral, me distraje pensando pensamientos y me qued\xE9 un tiempo
+      demasiado largo bajo el agua \xA1carajo! pero es que nunca alcanzo a ducharme
+      en 5 minutos. No puedo creer que eso fuese lo que terminara con el mar. "

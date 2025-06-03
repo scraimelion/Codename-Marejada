@@ -3700,34 +3700,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1223570504}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &638795363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638795360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88b5bfd44963fae41896fc006ed15ed8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: cf5191bbe98ca9c4c964e23b622b6edc, type: 2}
-  DialogEvents:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1875698808}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!54 &638795364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4191,31 +4163,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770980078}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &802946107 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1315839542190839943, guid: d0a0d904a5832534f958e21fc965ae90,
-    type: 3}
-  m_PrefabInstance: {fileID: 1111476127}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &802946116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 802946107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5f90f33a2301184eaf58ab94467b931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogBox: {fileID: 2105095856}
-  characterPhoto: {fileID: 32106519}
-  characterName: {fileID: 905330558}
-  dialogArea: {fileID: 1395477909}
-  typingSpeed: 0.1
-  typingAudioSource: {fileID: 437391327}
-  skipAudioSource: {fileID: 437391327}
 --- !u!1 &806759232
 GameObject:
   m_ObjectHideFlags: 0
@@ -4924,6 +4871,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2850598724391117685, guid: 7a18846d8eeea5f4dadce1a7fb5f31b4,
+        type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 3914aeb6718d56b42924c5ef255e8098,
+        type: 2}
     - target: {fileID: 3255305145397885300, guid: 7a18846d8eeea5f4dadce1a7fb5f31b4,
         type: 3}
       propertyPath: m_Name
@@ -5731,7 +5684,7 @@ PrefabInstance:
     - target: {fileID: 1315839542190839937, guid: d0a0d904a5832534f958e21fc965ae90,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1315839542190839937, guid: d0a0d904a5832534f958e21fc965ae90,
         type: 3}
@@ -5778,14 +5731,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager_marejada
       objectReference: {fileID: 0}
+    - target: {fileID: 2907905903502536242, guid: d0a0d904a5832534f958e21fc965ae90,
+        type: 3}
+      propertyPath: dialogBox
+      value: 
+      objectReference: {fileID: 2105095856}
+    - target: {fileID: 2907905903502536242, guid: d0a0d904a5832534f958e21fc965ae90,
+        type: 3}
+      propertyPath: dialogArea
+      value: 
+      objectReference: {fileID: 1395477909}
+    - target: {fileID: 2907905903502536242, guid: d0a0d904a5832534f958e21fc965ae90,
+        type: 3}
+      propertyPath: characterName
+      value: 
+      objectReference: {fileID: 905330558}
+    - target: {fileID: 2907905903502536242, guid: d0a0d904a5832534f958e21fc965ae90,
+        type: 3}
+      propertyPath: characterPhoto
+      value: 
+      objectReference: {fileID: 32106519}
+    - target: {fileID: 2907905903502536242, guid: d0a0d904a5832534f958e21fc965ae90,
+        type: 3}
+      propertyPath: skipAudioSource
+      value: 
+      objectReference: {fileID: 437391327}
+    - target: {fileID: 2907905903502536242, guid: d0a0d904a5832534f958e21fc965ae90,
+        type: 3}
+      propertyPath: typingAudioSource
+      value: 
+      objectReference: {fileID: 437391327}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1315839542190839943, guid: d0a0d904a5832534f958e21fc965ae90,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 802946116}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a0d904a5832534f958e21fc965ae90, type: 3}
 --- !u!1 &1140982515
 GameObject:
@@ -6073,6 +6052,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6925895503592395244, guid: f83b5aa2344a44e4ebf6eef0f38758f3,
+        type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 3914aeb6718d56b42924c5ef255e8098,
+        type: 2}
     - target: {fileID: 2770146899781984345, guid: f83b5aa2344a44e4ebf6eef0f38758f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6161,10 +6146,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 638795364}
-    - targetCorrespondingSourceObject: {fileID: 3255305145397885300, guid: f83b5aa2344a44e4ebf6eef0f38758f3,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 638795363}
   m_SourcePrefab: {fileID: 100100000, guid: f83b5aa2344a44e4ebf6eef0f38758f3, type: 3}
 --- !u!4 &1252923702 stripped
 Transform:
@@ -6385,7 +6366,7 @@ Transform:
   m_GameObject: {fileID: 1278080008}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.101913, y: 0.029807847, z: -0.4511739}
+  m_LocalPosition: {x: -5.101913, y: 0.02, z: -0.47}
   m_LocalScale: {x: 17.926615, y: 17.926615, z: 17.926615}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8940,12 +8921,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a88430c1dd774944a9a9d92b2d2dfbb, type: 3}
---- !u!1 &1875698808 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3255305145397885300, guid: 241269614ff6de84989736f0bcbc2038,
-    type: 3}
-  m_PrefabInstance: {fileID: 1793127996}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1914979495
 PrefabInstance:
   m_ObjectHideFlags: 0
