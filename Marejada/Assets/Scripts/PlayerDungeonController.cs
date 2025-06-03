@@ -1,6 +1,7 @@
 using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections.Generic;
 
 namespace Unity.FPS.Gameplay {
 
@@ -45,6 +46,8 @@ namespace Unity.FPS.Gameplay {
         GameObject m_NodoActual;
         GameObject m_NodoDestino;
         GameObject m_modeloPersonaje;
+        GameObject m_flechasPadre;
+        List<GameObject> FlechasNav;
 
         void Awake()
         {
@@ -75,7 +78,13 @@ namespace Unity.FPS.Gameplay {
                 m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[0];
             }
             m_modeloPersonaje = GameObject.Find("PlayerModel");
-
+            
+            m_flechasPadre = GameObject.Find("NavArrows");
+            FlechasNav = new List<GameObject>();
+            foreach (Transform child in m_flechasPadre.transform) {
+                child.gameObject.SetActive(false);
+                FlechasNav.Add(child.gameObject);
+            }
 
             m_MovementDirection = new Vector3();
 
@@ -152,6 +161,18 @@ namespace Unity.FPS.Gameplay {
             m_NodoActual = other.gameObject;
             m_CameraFollow = m_NodoActual.transform.GetChild(0).gameObject;
             m_CameraFollow.SetActive(true);
+            //List<GameObject> nodos_vecinos = m_NodoActual.GetComponent<NodoCamino>().neighborNodes;
+
+            for (int i = 0; i < m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length; i++) {
+                Vector3 direccion = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[i].transform.position - m_NodoActual.transform.position;
+                direccion.Normalize();
+                Debug.Log(direccion);
+                if (i < FlechasNav.Count)
+                {
+                    FlechasNav[i].SetActive(true);
+                    FlechasNav[i].transform.LookAt(m_NodoActual.GetComponent<NodoCamino>().neighborNodes[i].transform.position);
+                }
+            }
             Debug.Log("PUEDES SELECCIONAR ESTE NUM DE NODOS: " + m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length);
         }
 
@@ -168,6 +189,10 @@ namespace Unity.FPS.Gameplay {
             if (selected_node >= 0 && selected_node < m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length) { // Si es -1 es que no se ha pulsado
                 m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[selected_node];
                 m_MovementDirection = new Vector3();
+
+                foreach (GameObject flecha in FlechasNav) {
+                    flecha.SetActive(false);
+                }
                 Debug.Log("HAS SELECCIONADO " + selected_node);
                 return true;
             }
