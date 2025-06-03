@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 5208fd7b864ccd0499f8ec8feec6001e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -138,10 +138,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damping: {x: 0.1, y: 0.5, z: 0.3}
-  ShoulderOffset: {x: 0.5, y: 1.61, z: 0}
-  VerticalArmLength: 0.4
+  ShoulderOffset: {x: 0.46, y: 1.55, z: -1.77}
+  VerticalArmLength: 0.37
   CameraSide: 1
-  CameraDistance: 2
+  CameraDistance: 1.62
   AvoidObstacles:
     Enabled: 0
     CollisionFilter:
@@ -5824,7 +5824,7 @@ Camera:
   m_GameObject: {fileID: 1140982515}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 1, g: 0.3915094, b: 0.5576417, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -5875,7 +5875,7 @@ Transform:
   m_GameObject: {fileID: 1140982515}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.87, y: 1.9, z: 7.3}
+  m_LocalPosition: {x: 3.4799995, y: 1.92, z: 7.3400006}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7112,17 +7112,17 @@ PrefabInstance:
     - target: {fileID: 3673089433194214977, guid: e2ef053d1651d0f45a60b71b2cb000b3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.439793
+      value: 9.049792
       objectReference: {fileID: 0}
     - target: {fileID: 3673089433194214977, guid: e2ef053d1651d0f45a60b71b2cb000b3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1997871
+      value: 1.109787
       objectReference: {fileID: 0}
     - target: {fileID: 3673089433194214977, guid: e2ef053d1651d0f45a60b71b2cb000b3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.211953
+      value: 6.251953
       objectReference: {fileID: 0}
     - target: {fileID: 3673089433194214977, guid: e2ef053d1651d0f45a60b71b2cb000b3,
         type: 3}
@@ -7172,7 +7172,7 @@ PrefabInstance:
     - target: {fileID: 9017589299019787460, guid: e2ef053d1651d0f45a60b71b2cb000b3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2090392526725923397, guid: e2ef053d1651d0f45a60b71b2cb000b3, type: 3}
