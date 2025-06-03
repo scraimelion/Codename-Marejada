@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI; // necesario para manejar el botón
+using UnityEngine.UI;
 
 namespace DialogueSystem
 {
@@ -10,8 +10,12 @@ namespace DialogueSystem
         [SerializeField] private UnityEvent DialogEvents;
 
         // Referencia al botón "Hablar" que está en la UI
-        GameObject hablarButton; // activa el botón visual
+        GameObject hablarButton;
         private Button hablarBtnComponent;
+
+        [Header("Sonido de entrada")]
+        [SerializeField] private AudioClip sonidoAlEntrar; // sonido asignable en el inspector
+        private AudioSource audioSource;
 
         private void Start()
         {
@@ -21,8 +25,15 @@ namespace DialogueSystem
             {
                 Debug.Log("aaaaaa");
                 hablarBtnComponent = hablarButton.GetComponent<Button>();
-                //hablarButton.SetActive(false); // desactivado por defecto
             }
+
+            audioSource = GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>(); // lo crea si no hay uno
+            }
+
+            audioSource.playOnAwake = false;
         }
 
         public void TriggerDialogue()
@@ -33,7 +44,7 @@ namespace DialogueSystem
             DialogEvents.Invoke();
 
             if (hablarButton != null)
-                hablarButton.SetActive(false); // ocultar después de iniciar diálogo
+                hablarButton.SetActive(false);
         }
 
         public void ReplaceDialogue(DialogueRoundSO newDialog) => dialogue = newDialog;
@@ -43,8 +54,14 @@ namespace DialogueSystem
             if (other.CompareTag("Player") && hablarButton != null)
             {
                 hablarButton.SetActive(true);
-                hablarBtnComponent.onClick.RemoveAllListeners(); // limpiar previas
+                hablarBtnComponent.onClick.RemoveAllListeners();
                 hablarBtnComponent.onClick.AddListener(TriggerDialogue);
+
+                if (sonidoAlEntrar != null)
+                {
+                    audioSource.clip = sonidoAlEntrar;
+                    audioSource.Play();
+                }
             }
         }
 
@@ -53,7 +70,7 @@ namespace DialogueSystem
             if (other.CompareTag("Player") && hablarButton != null)
             {
                 hablarButton.SetActive(false);
-                hablarBtnComponent.onClick.RemoveAllListeners(); // limpiar eventos
+                hablarBtnComponent.onClick.RemoveAllListeners();
             }
         }
     }
