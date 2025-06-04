@@ -18,12 +18,12 @@ MonoBehaviour:
     dialogLine: "\xBFMolesto? "
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
-    dialogLine: "Ay, cielo, qu\xE9 palabra tan fuerte. Digamos que\u2026 interrumpes
+    dialogLine: "Ay, cielo, qu\xE9 palabra tan fuerte. Digamos que... interrumpes
       mi digesti\xF3n."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Bueno, si prefieres me voy, pero pensaba que ya van varios d\xEDas
-      y podr\xEDamos\u2026 hablar."
+      y podr\xEDamos... hablar."
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
     dialogLine: "\xBFHablar de qu\xE9, cari\xF1o? \xBFVas a volver a la cocina? Eso
@@ -56,7 +56,7 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Es lo \xFAnico que te preocupa, que no haya realizado mi trabajo.
-      Ni siquiera en estas condiciones dejas de controlar todo\u2026 y a todes."
+      Ni siquiera en estas condiciones dejas de controlar todo... y a todes."
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
     dialogLine: "\xA1Qu\xE9 va! No te sulfures. Mira que este oasis te sienta bien,

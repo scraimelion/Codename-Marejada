@@ -19,7 +19,7 @@ MonoBehaviour:
       esperando que no volvieses de tu rid\xEDculo paseo de fl\xE2neur provinciano."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "Buenos d\xEDas a ti tambi\xE9n\u2026\r"
+    dialogLine: "Buenos d\xEDas a ti tambi\xE9n...\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
       type: 2}
     dialogLine: "\xBFVas a volver a intentar que te dejen entrar? He o\xEDdo que
@@ -40,7 +40,7 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "T\xFA tambi\xE9n amargas el m\xEDo. Aun as\xED al menos hago el
-      esfuerzo de saludarte cada ma\xF1ana y no parece que no hay\u2026"
+      esfuerzo de saludarte cada ma\xF1ana y no parece que no hay..."
   - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
       type: 2}
     dialogLine: "Cocinere, s\xE9 que eres impresionable e insultantemente sensible

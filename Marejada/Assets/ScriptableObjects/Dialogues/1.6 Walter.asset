@@ -18,7 +18,7 @@ MonoBehaviour:
     dialogLine: " \xA1Hsss! \xA1hss! \xA1HSSS! \xBFQui\xE9n se atreve a molestar?"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: " Perd\xF3n, solo estaba pasando y pens\xE9\u2026"
+    dialogLine: " Perd\xF3n, solo estaba pasando y pens\xE9..."
   - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
       type: 2}
     dialogLine: "\xA1Pensar! Que gran pasatiempo para quien no tiene nada mejor que

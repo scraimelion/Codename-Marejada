@@ -37,7 +37,7 @@ MonoBehaviour:
       que tengo miedo a... no s\xE9..."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "\xBFA sentirte\u2026 in\xFAtil?"
+    dialogLine: "\xBFA sentirte... in\xFAtil?"
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
     dialogLine: "\xA1S\xED, exacto! Qu\xE9 movida mantener toda esta masculinidad
@@ -71,5 +71,5 @@ MonoBehaviour:
       No hace falta que te lo tragues todo sole. Entre todes hacemos la lucha."
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
-    dialogLine: "Voy a confesar que tienes tus momentos de lucidez, cocinere. Gracias\u2026
+    dialogLine: "Voy a confesar que tienes tus momentos de lucidez, cocinere. Gracias...
       de coraz\xF3n."

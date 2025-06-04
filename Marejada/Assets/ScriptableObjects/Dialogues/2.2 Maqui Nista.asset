@@ -33,7 +33,7 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
       type: 2}
     dialogLine: "No recordamos la \xFAltima vez que tuvimos vacaciones as\xED que
-      queremos tener\u2026 "
+      queremos tener... "
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
     dialogLine: <i> hobbies...</i>
@@ -42,7 +42,7 @@ MonoBehaviour:
     dialogLine: "\xA1Eso, hobbies!"
   - <Character>k__BackingField: {fileID: 11400000, guid: 7b4eea5f4c1a54b49b8ca565ca9b52d1,
       type: 2}
-    dialogLine: " <i>hehehehehehehe\u2026</i>"
+    dialogLine: " <i>hehehehehehehe...</i>"
   - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Me estoy dando cuenta en este mismo momento que no hab\xEDa o\xEDdo
@@ -72,7 +72,7 @@ MonoBehaviour:
     dialogLine: Yes, thank you, and you?
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
-    dialogLine: "<i>Same, same thank you\u2026</i>"
+    dialogLine: "<i>Same, same thank you...</i>"
   - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Como siempre, Maqui y Nista comienzan a hablar cada vez m\xE1s

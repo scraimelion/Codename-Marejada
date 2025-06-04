@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogTurnsList:
   - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
       type: 2}
-    dialogLine: "Si el \xE1ngulo es de menos de 45 recuerda que tampoco podemos redondear\u2026"
+    dialogLine: "Si el \xE1ngulo es de menos de 45 recuerda que tampoco podemos redondear..."
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
     dialogLine: "<i>Hacia arriba, lo s\xE9.</i>"
@@ -40,7 +40,7 @@ MonoBehaviour:
     dialogLine: Cierto.
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
-    dialogLine: <i>Osea que esa promesa no vale.</>
+    dialogLine: <i>Osea que esa promesa no vale.</i>
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
     dialogLine: "No valdr\xEDa, no."
