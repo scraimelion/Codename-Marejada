@@ -23,6 +23,10 @@ namespace DialogueSystem
         [SerializeField] private AudioSource typingAudioSource;      // Sonido de escritura letra por letra
         [SerializeField] private AudioSource skipAudioSource;        // Sonido al omitir diálogo
 
+        [Header("Progresión de dialálogos")]
+        [SerializeField] private int progresionFase1 = 0;
+        [SerializeField] private int progresionFase2 = 0;
+
         // Posiciones de anclaje para animaciones de entrada/salida
         private readonly Vector2 dialogBoxScreenAnchorPosition = new(0, 0);      // Posición visible
         private readonly Vector2 dialogBoxOutAnchorPosition = new(0, -220f);     // Posición oculta
@@ -159,8 +163,12 @@ namespace DialogueSystem
             currentTurn = dialogTurnsQueue.Dequeue();
 
             // Cargar datos del personaje
-            characterPhoto.sprite = currentTurn.Character.ProfilePhoto;
-            characterName.text = currentTurn.Character.Name;
+
+            if (currentTurn.Character != null)
+            {
+                characterPhoto.sprite = currentTurn.Character.ProfilePhoto;
+                characterName.text = currentTurn.Character.Name;
+            }
 
             StopAllCoroutines();
             StartCoroutine(TypeSentence(currentTurn));
@@ -231,6 +239,18 @@ namespace DialogueSystem
         public void ButtonClicked()
         {
             IsDialogStartAction = true;
+        }
+
+        public void DialogProgress(int progress_id)
+        {
+            if (progress_id == 0)
+            {
+                progresionFase1++;
+            }
+            else
+            {
+                progresionFase2++;
+            }
         }
 
     }

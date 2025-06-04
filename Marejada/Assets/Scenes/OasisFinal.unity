@@ -5435,6 +5435,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1340275965065815175, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: cf10cd58adf45364b8646d757602fb0f,
+        type: 2}
     - target: {fileID: 2770146899781984345, guid: 67072eb432438a142a602f9178a6a096,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5489,6 +5495,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Walter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853624266770235017, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4.813551
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853624266770235017, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 6.945299
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853624266770235017, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 11.080324
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853624266770235017, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 1.4066995
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853624266770235017, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -2.4526496
+      objectReference: {fileID: 0}
+    - target: {fileID: 4853624266770235017, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -4.5402584
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
