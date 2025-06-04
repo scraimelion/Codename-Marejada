@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: B. Llana
   m_EditorClassIdentifier: 
   characterName: B. Llana
-  profilePhoto: {fileID: 21300000, guid: 9effc2ca9e17875479c1f2404a5e17a0, type: 3}
+  profilePhoto: {fileID: 21300000, guid: 875e5dfadad943541a4222bcbea2ada6, type: 3}
   emotions:
   - emotionName: Angry
     emotionSprite: {fileID: 21300000, guid: ea0bd3d3911abcd4794f49e9282d378b, type: 3}

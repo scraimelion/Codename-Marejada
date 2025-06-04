@@ -19,7 +19,7 @@ MonoBehaviour:
       esperando que no volvieses de tu rid\xEDculo paseo de fl\xE2neur provinciano."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "Buenos d\xEDas a ti tambi\xE9n\u2026\r"
+    dialogLine: "Buenos d\xEDas a ti tambi\xE9n...\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
       type: 2}
     dialogLine: "\xBFVas a volver a intentar que te dejen entrar? He o\xEDdo que
@@ -40,7 +40,7 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "T\xFA tambi\xE9n amargas el m\xEDo. Aun as\xED al menos hago el
-      esfuerzo de saludarte cada ma\xF1ana y no parece que no hay\u2026"
+      esfuerzo de saludarte cada ma\xF1ana y no parece que no hay..."
   - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
       type: 2}
     dialogLine: "Cocinere, s\xE9 que eres impresionable e insultantemente sensible
@@ -61,12 +61,7 @@ MonoBehaviour:
     dialogLine: "Estoy recuperando el tiempo perdido, ejerciendo la rabia que no
       se me permit\xEDa. Y ahora, si me concedes el gusto de una vez, se acabaron
       los maitines. Fuera de mi vista, fregaplatos."
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
-      type: 2}
-    dialogLine: "*Encuentro fugazmente en los ojos de W. un poco de vulnerabilidad
-      detr\xE1s del insulto y comprendo que a menudo el lenguaje no es el mejor m\xE9todo
-      de comunicaci\xF3n. No es necesario verbalizar para entenderse.*"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Brindamos con caf\xE9 sin decir nada m\xE1s y me alejo de su refugio
       en El Oasis. Ma\xF1ana, decido, le saludar\xE9 en silencio con esta misma mirada
