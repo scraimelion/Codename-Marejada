@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 2.6 Walter
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*Wow, jam\xE1s pens\xE9 ver a Walter jugando, menos con pececitos
+      flotantes*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFY este ballet acu\xE1tico, a qu\xE9 se debe? \xBFHambre o aburrimiento?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "\xA1No estoy jugando! Estoy dando una c\xE1tedra de coordinaci\xF3n
+      simbi\xF3tica. Pero supongo que a ti te parece un show de t\xEDteres."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: Vamos, que no hay nada de malo en divertirse, yo te conozco.
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: " \xA1No conoces nada de m\xED! No conoces nada de nada. Yo he explorado
+      planetas, recorrido mundos, enfrentando mis miedos. Y t\xFA, aqu\xED, sin salir
+      de tu zona segura. Tu nariz es el horizonte m\xE1s ambicioso que te permites."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "No ser\xE9 un explorador avezado, pero llevo d\xEDas armando este
+      oasis solo. Tan mal no lo he hecho."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "\xBFEsto? \xBFAqu\xED? Es comodidad burguesa, es sentarse a esperar
+      el fin del sol\u2026 la p\xE9rdida del aura."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Quiz\xE1s quedarse no resuelva nada."

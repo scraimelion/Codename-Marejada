@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 0.1 Intro
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Todos en el barco me culparon, nadie me defendi\xF3. Y yo que pensaba
+      que eran mi familia, pero al \u201Cmenor\u201D problema se ponen en mi contra.
+      Bueno no es tan \u201Cmenor\u201D, pero igual, no me esperaba esto. Todos los
+      que hemos acabado aqu\xED somos fracasos del Capitalismo con may\xFAscula.\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Les tripulantes trabajamos siempre a contrarreloj. Hay mucho que
+      hacer en el barco y, sin embargo, nadie sabe realmente para qu\xE9 tenemos
+      que hacerlo \xBFQu\xE9 finalidad tiene? \xBFPara qui\xE9n trabajamos?\r"
