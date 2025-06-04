@@ -362,6 +362,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 459214339296999675, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459214339296999675, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae454f6b16f2d4fcfb4471f16de8da01,
+        type: 3}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_text
+      value: '!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 75063828274bdb145a55f6dd2f22e8b2,
+        type: 2}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2,
+        type: 2}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3634925773966142007, guid: 52084845497d00549b52abb2aeb2520b,
         type: 3}
       propertyPath: m_Name
