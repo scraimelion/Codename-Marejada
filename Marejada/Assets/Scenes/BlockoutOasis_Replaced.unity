@@ -362,6 +362,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 459214339296999675, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459214339296999675, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ae454f6b16f2d4fcfb4471f16de8da01,
+        type: 3}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_text
+      value: '!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 75063828274bdb145a55f6dd2f22e8b2,
+        type: 2}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2,
+        type: 2}
+    - target: {fileID: 606448134488379966, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3634925773966142007, guid: 52084845497d00549b52abb2aeb2520b,
         type: 3}
       propertyPath: m_Name
@@ -421,6 +469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9110735827407349512, guid: 52084845497d00549b52abb2aeb2520b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4553,6 +4606,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5161168596883419911, guid: a4a6211396b4ea74fab7bab5abdc7fbb,
+        type: 3}
+      propertyPath: hablarButton
+      value: 
+      objectReference: {fileID: 1701757854}
+    - target: {fileID: -5161168596883419911, guid: a4a6211396b4ea74fab7bab5abdc7fbb,
+        type: 3}
+      propertyPath: sonidoAlEntrar
+      value: 
+      objectReference: {fileID: 8300000, guid: 4524964f79fac41fa96cbc1b147d228f, type: 3}
     - target: {fileID: 2770146899781984345, guid: a4a6211396b4ea74fab7bab5abdc7fbb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5029,6 +5092,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3914aeb6718d56b42924c5ef255e8098,
         type: 2}
+    - target: {fileID: 2850598724391117685, guid: 7a18846d8eeea5f4dadce1a7fb5f31b4,
+        type: 3}
+      propertyPath: hablarButton
+      value: 
+      objectReference: {fileID: 1701757854}
+    - target: {fileID: 2850598724391117685, guid: 7a18846d8eeea5f4dadce1a7fb5f31b4,
+        type: 3}
+      propertyPath: sonidoAlEntrar
+      value: 
+      objectReference: {fileID: 8300000, guid: 1d162a961494a4d31b9211ae930086fc, type: 3}
     - target: {fileID: 3255305145397885300, guid: 7a18846d8eeea5f4dadce1a7fb5f31b4,
         type: 3}
       propertyPath: m_Name
@@ -6227,6 +6300,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3914aeb6718d56b42924c5ef255e8098,
         type: 2}
+    - target: {fileID: -6925895503592395244, guid: f83b5aa2344a44e4ebf6eef0f38758f3,
+        type: 3}
+      propertyPath: hablarButton
+      value: 
+      objectReference: {fileID: 1701757854}
+    - target: {fileID: -6925895503592395244, guid: f83b5aa2344a44e4ebf6eef0f38758f3,
+        type: 3}
+      propertyPath: sonidoAlEntrar
+      value: 
+      objectReference: {fileID: 8300000, guid: 211b0f70b64ec4b83bceb174d8462dd8, type: 3}
+    - target: {fileID: -6925895503592395244, guid: f83b5aa2344a44e4ebf6eef0f38758f3,
+        type: 3}
+      propertyPath: DialogEvents.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6925895503592395244, guid: f83b5aa2344a44e4ebf6eef0f38758f3,
+        type: 3}
+      propertyPath: DialogEvents.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2770146899781984345, guid: f83b5aa2344a44e4ebf6eef0f38758f3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8269,6 +8362,12 @@ PrefabInstance:
       addedObject: {fileID: 1757159307}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a88430c1dd774944a9a9d92b2d2dfbb, type: 3}
+--- !u!1 &1701757854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9110735827407349512, guid: 52084845497d00549b52abb2aeb2520b,
+    type: 3}
+  m_PrefabInstance: {fileID: 50738994}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1712402960
 GameObject:
   m_ObjectHideFlags: 0
@@ -8570,6 +8669,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 81802050655977857, guid: 241269614ff6de84989736f0bcbc2038,
+        type: 3}
+      propertyPath: sonidoAlEntrar
+      value: 
+      objectReference: {fileID: 8300000, guid: 469a78c546ce745e9a22df456e2cdb8d, type: 3}
     - target: {fileID: 2770146899781984345, guid: 241269614ff6de84989736f0bcbc2038,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10823,6 +10927,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1340275965065815175, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: hablarButton
+      value: 
+      objectReference: {fileID: 1701757854}
+    - target: {fileID: 1340275965065815175, guid: 67072eb432438a142a602f9178a6a096,
+        type: 3}
+      propertyPath: sonidoAlEntrar
+      value: 
+      objectReference: {fileID: 8300000, guid: c9bbb6680eb0f44388a8f5e8e0565402, type: 3}
     - target: {fileID: 2770146899781984345, guid: 67072eb432438a142a602f9178a6a096,
         type: 3}
       propertyPath: m_LocalPosition.x
