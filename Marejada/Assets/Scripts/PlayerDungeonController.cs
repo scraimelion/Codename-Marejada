@@ -176,14 +176,14 @@ namespace Unity.FPS.Gameplay {
             for (int i = 0; i < m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length; i++) {
                 Vector3 direccion = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[i].transform.position - m_NodoActual.transform.position;
                 direccion.Normalize();
-                Debug.Log(direccion);
+                //Debug.Log(direccion);
                 if (i < FlechasNav.Count)
                 {
                     FlechasNav[i].SetActive(true);
                     FlechasNav[i].transform.LookAt(m_NodoActual.GetComponent<NodoCamino>().neighborNodes[i].transform.position);
                 }
             }
-            Debug.Log("PUEDES SELECCIONAR ESTE NUM DE NODOS: " + m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length);
+            //Debug.Log("PUEDES SELECCIONAR ESTE NUM DE NODOS: " + m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length);
         }
 
         void OnTriggerExit(Collider other) {
@@ -206,7 +206,7 @@ namespace Unity.FPS.Gameplay {
                 {
                     flecha.SetActive(false);
                 }
-                Debug.Log("HAS SELECCIONADO " + selected_node);
+                //Debug.Log("HAS SELECCIONADO " + selected_node);
                 m_EnTransito = true;
                 return;
             }

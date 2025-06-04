@@ -32,15 +32,33 @@ namespace DialogueSystem
         private bool isTypingDialogTurn = false;            // ¿Se está escribiendo una línea actualmente?
         private bool isEndingDialogue = false;              // ¿El diálogo está terminando (para evitar múltiples animaciones)?
 
+        // Referencia al botón "Hablar" que está en la UI
+        GameObject hablarButton;
+        private Button hablarBtnComponent;
 
-        void Start () {
+        void Start()
+        {
             Cursor.visible = true;
+
+            hablarButton = GameObject.Find("Hablar");
+
+            if (hablarButton != null)
+            {
+
+                hablarButton.SetActive(false);
+                hablarBtnComponent = hablarButton.GetComponent<Button>();
+                hablarBtnComponent.onClick.AddListener(ButtonClicked);
+                hablarBtnComponent.onClick.AddListener(ButtonClicked);
+
+            }
         }
         private void Update()
         {
-            IsDialogStartAction = Input.GetMouseButtonDown(0);
+            //IsDialogStartAction = hablarBtnComponent.IsPressed();
+            IsDialogSkipAction = Input.GetMouseButtonDown(0);
+            //IsDialogStartAction = false;
             // Si el diálogo está activo y se hace clic, avanzar o mostrar texto completo
-            if (IsDialogInProgress && !isEndingDialogue && IsDialogStartAction)
+            if (IsDialogInProgress && !isEndingDialogue && IsDialogSkipAction)
             {
                 if (isTypingDialogTurn)
                 {
@@ -59,6 +77,7 @@ namespace DialogueSystem
 
         // Propiedad pública que indica si el diálogo está activo
         public bool IsDialogInProgress { get; private set; } = false;
+        public bool IsDialogSkipAction { get; private set; } = false;
         public bool IsDialogStartAction { get; private set; } = false;
 
         public void StartDialogue(DialogueRoundSO dialog)
@@ -73,7 +92,8 @@ namespace DialogueSystem
             ShowAndAnimateDialogbox();
 
             // Detener controles del jugador (si se usan)
-            // inputReader.EnableInputUI();
+            IsDialogStartAction = false;
+            hablarButton.SetActive(false);
         }
 
         private void Awake()
@@ -195,7 +215,23 @@ namespace DialogueSystem
                     // inputReader.DisableInputUI();
                 });
 
+
+
             Debug.Log($"<color=yellow>Dialogue ended</color>");
         }
+
+        public void PrepareDialog()
+        {
+            if (hablarButton != null)
+            {
+                hablarButton.SetActive(true);
+            }
+        }
+
+        public void ButtonClicked()
+        {
+            IsDialogStartAction = true;
+        }
+
     }
 }

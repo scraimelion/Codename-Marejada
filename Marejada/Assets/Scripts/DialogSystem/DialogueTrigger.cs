@@ -9,9 +9,8 @@ namespace DialogueSystem
         [SerializeField] private DialogueRoundSO dialogue;
         [SerializeField] private UnityEvent DialogEvents;
 
-        // Referencia al botón "Hablar" que está en la UI
-        GameObject hablarButton;
-        private Button hablarBtnComponent;
+        bool enAreaDialogo = false;
+
 
         [Header("Sonido de entrada")]
         [SerializeField] private AudioClip sonidoAlEntrar; // sonido asignable en el inspector
@@ -19,14 +18,6 @@ namespace DialogueSystem
 
         private void Start()
         {
-            hablarButton = GameObject.Find("Hablar");
-
-            if (hablarButton != null)
-            {
-                Debug.Log("aaaaaa");
-                hablarBtnComponent = hablarButton.GetComponent<Button>();
-            }
-
             audioSource = GetComponent<AudioSource>();
             if (audioSource == null)
             {
@@ -36,26 +27,30 @@ namespace DialogueSystem
             audioSource.playOnAwake = false;
         }
 
+        private void Update()
+        {
+            if (enAreaDialogo && DialogueManager.Instance.IsDialogStartAction) {
+                TriggerDialogue();
+                enAreaDialogo = false;
+            }
+        }
+
         public void TriggerDialogue()
         {
             if (DialogueManager.Instance.IsDialogInProgress) return;
 
             DialogueManager.Instance.StartDialogue(dialogue);
             DialogEvents.Invoke();
-
-            if (hablarButton != null)
-                hablarButton.SetActive(false);
         }
 
         public void ReplaceDialogue(DialogueRoundSO newDialog) => dialogue = newDialog;
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Player") && hablarButton != null)
+            if (other.CompareTag("Player"))
             {
-                hablarButton.SetActive(true);
-                hablarBtnComponent.onClick.RemoveAllListeners();
-                hablarBtnComponent.onClick.AddListener(TriggerDialogue);
+                DialogueManager.Instance.PrepareDialog();
+                enAreaDialogo = true;
 
                 if (sonidoAlEntrar != null)
                 {
@@ -67,10 +62,9 @@ namespace DialogueSystem
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.CompareTag("Player") && hablarButton != null)
+            if (other.CompareTag("Player"))
             {
-                hablarButton.SetActive(false);
-                hablarBtnComponent.onClick.RemoveAllListeners();
+                enAreaDialogo = false;
             }
         }
     }

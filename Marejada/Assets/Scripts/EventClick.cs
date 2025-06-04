@@ -29,6 +29,7 @@ namespace Marejada
 
         public void OnPointerClick(PointerEventData eventData)
         {
+            m_Material.color = m_Color;
             ClickEvent.Invoke();
             //Debug.Log("CLIIIIIICK");
         }
