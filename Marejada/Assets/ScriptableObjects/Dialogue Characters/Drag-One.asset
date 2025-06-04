@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 472c8229ed275a24db883d191ba731cf, type: 3}
   m_Name: Drag-One
   m_EditorClassIdentifier: 
-  characterName: WBGG-v3.ino
-  profilePhoto: {fileID: 21300000, guid: 06d9c397d287ee14bbe4496a75aaf4f2, type: 3}
+  characterName: ???????????
+  profilePhoto: {fileID: 21300000, guid: 3c6c659c7aa754d4cbd68a84b234a694, type: 3}
   emotions:
   - emotionName: Angry
     emotionSprite: {fileID: 21300000, guid: ea0bd3d3911abcd4794f49e9282d378b, type: 3}
