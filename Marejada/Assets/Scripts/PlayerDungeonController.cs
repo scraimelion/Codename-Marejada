@@ -151,11 +151,11 @@ namespace Unity.FPS.Gameplay {
                 //shoot a raycast up from that position towards the object
                 Ray upRay = new Ray(pos, transform.position - pos);
 
-                //get a point (vector3) in that ray 0.5 units from its origin
-                Vector3 upDist = upRay.GetPoint(0.5f);
+                //get a point (vector3) in that ray 0.1 units from its origin
+                Vector3 upDist = upRay.GetPoint(0.01f);
 
                 //smoothly interpolate its position
-                transform.position = Vector3.Lerp(transform.position, upDist, 0.5f);
+                Vector3 move = upDist - transform.position;
             }
 
             m_Controller.Move(CharacterVelocity * Time.deltaTime);
