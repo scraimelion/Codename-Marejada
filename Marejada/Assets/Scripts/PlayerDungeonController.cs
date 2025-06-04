@@ -93,11 +93,11 @@ namespace Unity.FPS.Gameplay {
         // Update is called once per frame
         void Update() {
             HandleCameraPosition();
-            Cursor.visible = true;
+            //Cursor.visible = true;
 
             if (!m_EnTransito)
             {
-                m_EnTransito = selectNewNode();
+                //m_EnTransito = selectNewNode();
                 return;
             }
 
@@ -142,12 +142,20 @@ namespace Unity.FPS.Gameplay {
             Vector3 capsuleBottomBeforeMove = GetCapsuleBottomHemisphere();
             Vector3 capsuleTopBeforeMove = GetCapsuleTopHemisphere(m_Controller.height);
 
-            // detect obstructions to adjust velocity accordingly
-            if (Physics.CapsuleCast(capsuleBottomBeforeMove, capsuleTopBeforeMove, m_Controller.radius,
-                CharacterVelocity.normalized, out RaycastHit hit, CharacterVelocity.magnitude * Time.deltaTime, -1,
-                QueryTriggerInteraction.Ignore))
+            //shoot a raycast relatively downwards
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, -transform.up, out hit, Mathf.Infinity))
             {
-                CharacterVelocity = Vector3.ProjectOnPlane(CharacterVelocity, hit.normal);
+                Vector3 pos = hit.point; //get the position where the ray hit the ground
+
+                //shoot a raycast up from that position towards the object
+                Ray upRay = new Ray(pos, transform.position - pos);
+
+                //get a point (vector3) in that ray 0.5 units from its origin
+                Vector3 upDist = upRay.GetPoint(0.5f);
+
+                //smoothly interpolate its position
+                transform.position = Vector3.Lerp(transform.position, upDist, 0.5f);
             }
 
             m_Controller.Move(CharacterVelocity * Time.deltaTime);
@@ -186,6 +194,26 @@ namespace Unity.FPS.Gameplay {
             m_OutOfTrigger = true;
         }
 
+        public void SelectNewNodeArrow(int selected)
+        {
+            int selected_node = selected;
+            if (selected_node >= 0 && selected_node < m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length)
+            {
+                m_NodoDestino = m_NodoActual.GetComponent<NodoCamino>().neighborNodes[selected_node];
+                m_MovementDirection = new Vector3();
+
+                foreach (GameObject flecha in FlechasNav)
+                {
+                    flecha.SetActive(false);
+                }
+                Debug.Log("HAS SELECCIONADO " + selected_node);
+                m_EnTransito = true;
+                return;
+            }
+            m_EnTransito = false;
+            return;
+        }
+
         bool selectNewNode() {
             int selected_node = m_InputHandler.GetSelectWeaponInput() - 1;
             if (selected_node >= 0 && selected_node < m_NodoActual.GetComponent<NodoCamino>().neighborNodes.Length) { // Si es -1 es que no se ha pulsado
@@ -195,7 +223,7 @@ namespace Unity.FPS.Gameplay {
                 foreach (GameObject flecha in FlechasNav) {
                     flecha.SetActive(false);
                 }
-                Debug.Log("HAS SELECCIONADO " + selected_node);
+                //Debug.Log("HAS SELECCIONADO " + selected_node);
                 return true;
             }
             return false;
