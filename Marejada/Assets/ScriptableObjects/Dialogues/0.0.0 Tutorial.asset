@@ -17,7 +17,7 @@ MonoBehaviour:
       type: 2}
     dialogLine: "*\xBFC\xF3mo he llegado hasta aqu\xED? Es hora de volver, me estoy
       alejando demasiado del campamento. Con este sol se me ha olvidado hasta c\xF3mo
-      moverme. A ver c\xF3mo era\u2026*"
+      moverme. A ver c\xF3mo era...*"
   - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*\xA1Ah, s\xED! Es W para caminar y dar click a una flecha para
