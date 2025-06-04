@@ -71,6 +71,7 @@ MonoBehaviour:
   DialogEvents:
     m_PersistentCalls:
       m_Calls: []
+  sonidoAlEntrar: {fileID: 8300000, guid: c9bbb6680eb0f44388a8f5e8e0565402, type: 3}
 --- !u!1 &4774088905459491926
 GameObject:
   m_ObjectHideFlags: 0
