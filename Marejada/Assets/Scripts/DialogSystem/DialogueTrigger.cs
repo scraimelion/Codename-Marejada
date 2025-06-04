@@ -65,6 +65,7 @@ namespace DialogueSystem
             if (other.CompareTag("Player"))
             {
                 enAreaDialogo = false;
+                audioSource.Stop();
             }
         }
     }
