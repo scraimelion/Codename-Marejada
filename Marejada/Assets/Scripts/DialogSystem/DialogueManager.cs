@@ -236,6 +236,14 @@ namespace DialogueSystem
             }
         }
 
+        public void UnPrepareDialog()
+        {
+            if (hablarButton != null)
+            {
+                hablarButton.SetActive(false);
+            }
+        }
+
         public void ButtonClicked()
         {
             IsDialogStartAction = true;
