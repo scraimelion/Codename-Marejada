@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 1.3 B. Llana
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: " *suavemente* \xBFmolesto? "
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "Ay, cielo, qu\xE9 palabra tan fuerte. Digamos que\u2026 interrumpes
+      mi digesti\xF3n."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Bueno, si prefieres me voy, pero pensaba que ya van varios d\xEDas
+      y podr\xEDamos\u2026 hablar."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "\xBFHablar de qu\xE9, cari\xF1o? \xBFVas a volver a la cocina? Eso
+      s\xED lo podemos conversar. Mira que nosotres tenemos hambre y t\xFA eres nuestro
+      fregapla... Perd\xF3n, cocinere estrella."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*sarc\xE1stique* Que ternura, se nota que me extra\xF1aste."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "\xBFExtra\xF1ar? \xBFExtra\xF1ar a qui\xE9n, queride? Yo no tengo
+      tiempo para esas cosas."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Pero veo que para una copa de vino siempre tienes tiempo. Al menos
+      tienes algo de beber, con un vaso de agua me conformar\xEDa."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "Oh, cielito, \xBFya vamos a empezar con la culpa otra vez? Te hace
+      p\xE9simo para la piel, m\xEDrate esas ojeras."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xA1Estas ojeras son de preocupaci\xF3n! \xA1mira todo lo que ha
+      pasado! M\xE1s encima, estar tres noches durmiendo a la intemperie, mientras
+      ustedes estaban muy c\xF3modes en sus camarotes. "
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "Ay, qu\xE9 dramatique. Seguro te vino bien un descansito de todes,
+      y de cocinar, claro."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Es lo \xFAnico que te preocupa, que no haya realizado mi trabajo.
+      Ni siquiera en estas condiciones dejas de controlar todo\u2026 y a todes."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "\xA1Qu\xE9 va! No te sulfures. Mira que este Oasis te sienta bien,
+      pero no es para emocionarse, cielo, a\xFAn estamos procesando lo que hiciste."
