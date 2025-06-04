@@ -13,14 +13,13 @@ MonoBehaviour:
   m_Name: 0.2 Intro
   m_EditorClassIdentifier: 
   dialogTurnsList:
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
-    dialogLine: "\rCreen que encargarse de la cocina es f\xE1cil, que puede hacerlo
+    dialogLine: "\r*Creen que encargarse de la cocina es f\xE1cil, que puede hacerlo
       cualquiera. No aprecian lo que hago. Soy el \xFAltimo eslab\xF3n de la cadena
-      alimentaria. Soy la gota que colm\xF3 el vaso, y ahora no s\xE9 c\xF3mo solucionarlo.
-      \r\r\n"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      alimentaria. Soy la gota que colm\xF3 el vaso, y ahora no s\xE9 c\xF3mo solucionarlo.*\r\r\n"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
-    dialogLine: "Espero que hayan tenido tiempo de reflexionar sin mi, no puedo seguir
-      as\xED. \r\n\xA1Ah\xED est\xE1 Walter! voy a ver c\xF3mo est\xE1n los \xE1nimos.  
-      \r"
+    dialogLine: "*Espero que hayan tenido tiempo de reflexionar sin mi, no puedo
+      seguir as\xED. \r\n\xA1Ah\xED est\xE1 Walter! voy a ver c\xF3mo est\xE1n los
+      \xE1nimos.*\r"

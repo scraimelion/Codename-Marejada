@@ -21,14 +21,14 @@ MonoBehaviour:
     dialogLine: "Si, o sea no, o sea, nada\u2026 Ven\xEDa a\u2026"
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
-    dialogLine: "*Interrumpe* \xBFA quitarme la sombra o a limpiar tu conciencia?"
+    dialogLine: "\xBFA quitarme la sombra o a limpiar tu conciencia?"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: Siempre tan afilada, tan perfecta.
+    dialogLine: Siempre tan afilade, tan perfecte.
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
-    dialogLine: " Claro ciele, la gente espera perfecci\xF3n, eficiencia, excelencia.
-      Soy le mejore en lo que hago, tanto que me clonaron \xA1Mil copias! Nada m\xE1s
+    dialogLine: " Claro cielo, la gente espera perfecci\xF3n, eficiencia, excelencia.
+      Soy le mejore en lo que hago, tanto que me clonaron. \xA1Mil copias! Nada m\xE1s
       y nada menos. Bueno, luego vinieron nuevas versiones, con menos \u201Cruido
       emocional\u201D dicen. "
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
@@ -36,7 +36,7 @@ MonoBehaviour:
     dialogLine: "Suena\u2026 brutal."
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
-    dialogLine: "\xBFBrutal? No. corporativo."
+    dialogLine: "\xBFBrutal? No, corporativo."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "\xBFY ahora qu\xE9 eres?"
@@ -45,7 +45,7 @@ MonoBehaviour:
     dialogLine: "La edici\xF3n limitada que qued\xF3 atr\xE1s, la que nadie extra\xF1a."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: " \xBFyo, te puedo extra\xF1ar?"
+    dialogLine: " \xBFYo... te puedo extra\xF1ar?"
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
     dialogLine: "Ay cielite, pues deber\xEDas revisar tus est\xE1ndares."
