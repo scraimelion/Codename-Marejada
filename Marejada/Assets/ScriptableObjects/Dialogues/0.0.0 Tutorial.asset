@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
-  m_Name: 0.2 Intro
+  m_Name: 0.0.0 Tutorial
   m_EditorClassIdentifier: 
   dialogTurnsList:
   - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
-    dialogLine: "\r*Creen que encargarse de la cocina es f\xE1cil, que puede hacerlo
-      cualquiera. No aprecian lo que hago. Soy el \xFAltimo eslab\xF3n de la cadena
-      alimentaria. Soy la gota que colm\xF3 el vaso, y ahora no s\xE9 c\xF3mo solucionarlo.*\r\r\n"
+    dialogLine: "*\xBFC\xF3mo he llegado hasta aqu\xED? Es hora de volver, me estoy
+      alejando demasiado del campamento. Con este sol se me ha olvidado hasta c\xF3mo
+      moverme. A ver c\xF3mo era\u2026*"
   - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
-    dialogLine: "*Espero que hayan tenido tiempo de reflexionar sin mi, no puedo
-      seguir as\xED. \r\n\xA1Ah\xED est\xE1 Walter! voy a ver c\xF3mo est\xE1n los
-      \xE1nimos.*\r"
+    dialogLine: "*\xA1Ah, s\xED! Es W para caminar y dar click a una flecha para
+      seleccionar la direcci\xF3n.*"

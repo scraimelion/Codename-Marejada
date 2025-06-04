@@ -15,13 +15,13 @@ MonoBehaviour:
   dialogTurnsList:
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
-    dialogLine: " \xA1AUCH, TRAIDOR!"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+    dialogLine: " \xA1AUCH, TRAIDORE!"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Cuando me acerco a Ali-Cate puedo ver que se ha hecho una peque\xF1a
       herida en las manos mientras reparaba algo que no s\xE9 identificar. Le rodean
       componentes de construcci\xF3n con m\xE1s \xF3xido que metal ocasionado por
-      el salitre*"
+      el salitre.*"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "No te preocupes, se curar\xE1 r\xE1pido. Yo me corto continuamente
@@ -29,38 +29,38 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
     dialogLine: " S\xED, descuida, pinche. No es el dolor f\xEDsico lo que me preocupa,
-      es que no s\xE9 qu\xE9 me pasa hoy que no me estoy concentrando \xFAltimamente."
+      es que no s\xE9 qu\xE9 me pasa que no me estoy concentrando \xFAltimamente."
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
     dialogLine: "Supongo que todo lo del naufragio me ha afectado aunque no lo quiera
       admitir. No s\xE9, no tengo tantas cosas que hacer aqu\xED afuera y supongo
-      que tengo miedo a, no s\xE9,..."
+      que tengo miedo a... no s\xE9..."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "\xBFA sentirte\u2026 in\xFAtil?"
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
     dialogLine: "\xA1S\xED, exacto! Qu\xE9 movida mantener toda esta masculinidad
-      obrera productivista, \xBFNo? Qu\xE9 contradictorio, poner mi valor en mi trabajo.
-      Supongo que yo tambi\xE9n tengo inseguridades, \xA1Qui\xE9n lo hubiese adivinado!
+      obrera productivista, \xBFno? Qu\xE9 contradictorio, poner mi valor en mi trabajo.
+      Supongo que yo tambi\xE9n tengo inseguridades. \xA1Qui\xE9n lo hubiese adivinado!
       JAJAJAJAJ"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: ' *Yo lo hubiese adivinado*'
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
     dialogLine: " Adem\xE1s, no s\xE9, se supone que soy comunista de manual y que
-      mi sudor y l\xE1grimas construyen la lucha, cocinere, \xA1Tengo que ser inagotable! "
+      mi sudor y l\xE1grimas construyen la lucha, cocinere. \xA1Tengo que ser inagotable! "
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
     dialogLine: "Y sin embargo, hay d\xEDas que s\xF3lamente me apetece hacer un
       puzle y tomarme un caf\xE9 por gusto, no por necesidad. Pero no de m\xE1s de
-      500 piezas que sino me pierdo y acabo d\xE1ndole pu\xF1etazos a la pared de
+      500 piezas que si no me pierdo y acabo d\xE1ndole pu\xF1etazos a la pared de
       la frustraci\xF3n."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "Un d\xEDa podr\xEDamos hacer uno entre toda la tripulaci\xF3n, quiz\xE1
-      as\xED podamos resolver uno de m\xE1s piezas."
+    dialogLine: "Un d\xEDa podr\xEDamos hacer un puzle entre toda la tripulaci\xF3n,
+      quiz\xE1 as\xED podamos resolver uno de m\xE1s piezas."
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
     dialogLine: " \xA1Cierto, no se me hab\xEDa ocurrido!"

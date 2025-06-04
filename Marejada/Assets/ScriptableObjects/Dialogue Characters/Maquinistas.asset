@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 472c8229ed275a24db883d191ba731cf, type: 3}
-  m_Name: Nista
+  m_Name: Maquinistas
   m_EditorClassIdentifier: 
-  characterName: Nista
-  profilePhoto: {fileID: 21300000, guid: 85edabce3bab45c4dbce6f444ec49c92, type: 3}
+  characterName: Maquinistas
+  profilePhoto: {fileID: 21300000, guid: 2a5558e3d50032b478df4740a5b74bbe, type: 3}
   emotions: []

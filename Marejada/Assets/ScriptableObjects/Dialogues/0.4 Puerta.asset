@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 0.4 Puerta
   m_EditorClassIdentifier: 
   dialogTurnsList:
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*A ver si salen ya de una vez, que para algo he montado este campamento
       de ensue\xF1o\u2026*"
@@ -23,7 +23,8 @@ MonoBehaviour:
       que, tras una ardua deliberaci\xF3n, se ha decidido proceder a una reconciliaci\xF3n
       con tu persona a pesar de que tus largas duchas hayan acabado secando el mar.
       Yo, Capitane de la Odisea 5.4, te absuelvo de tu\u2026 \r\r"
-  - <Character>k__BackingField: {fileID: 0}
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
     dialogLine: " \xBFPodemos, por favor, abreviar un poco? Muchas gracias. Cocinere,
       cielo, \xBFser\xEDas tan amable de preparar la cena? \xBFNecesitas que te bajemos
       algo del barco?\r\r\r"
@@ -31,37 +32,40 @@ MonoBehaviour:
       type: 2}
     dialogLine: "Eso, joder, no puedo seguir comiendo las tostadas quemadas de le
       Capitane.\r\r\r\r"
-  - <Character>k__BackingField: {fileID: 0}
-    dialogLine: "No est\xE1n quemadas, es que en (inserte nombre de pa\xEDs pobre),
-      de donde era nuestre criade\u2026\r\n\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "No est\xE1n quemadas, es que en *inserte nombre de pa\xEDs pobre*,
+      de donde era nuestre criade\u2026\r\n\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
     dialogLine: "Eso, encima justif\xEDcalo con una historia de explotaci\xF3n y
-      opresi\xF3n.\r\n\n\r\r\r\r"
-  - <Character>k__BackingField: {fileID: 0}
+      opresi\xF3n."
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
     dialogLine: ...
-  - <Character>k__BackingField: {fileID: 0}
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
     dialogLine: "Bueno, la cosa es que estar\xEDan m\xE1s buenas con mermelada, pero
       Pachim\xFA no quiere compartir!!\r\n"
-  - <Character>k__BackingField: {fileID: 0}
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
     dialogLine: ...
-  - <Character>k__BackingField: {fileID: 0}
-    dialogLine: ...
-  - <Character>k__BackingField: {fileID: 0}
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: ... ...
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
     dialogLine: "No, es que\u2026 Esa mermelada es especial\u2026 Y seguro que est\xE1
       caducada\u2026 No me hagan abrirla, por favor\u2026\r\n"
-  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+  - <Character>k__BackingField: {fileID: 11400000, guid: 7b4eea5f4c1a54b49b8ca565ca9b52d1,
       type: 2}
-    dialogLine: 'A nosotres nos da igual. Si total, comemos ondas de sonido.
-
-'
-  - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
+    dialogLine: "A nosotres nos da igual. <i>Si total, comemos ondas de sonido. </i>
+      Pero tomar un poco el aire no nos vendr\xEDa mal. <i> Hace como 154 a\xF1os
+      que no salimos del barco. <i>\n"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
-    dialogLine: "Pero tomar un poco el aire no nos vendr\xEDa mal. Hace como 154
-      a\xF1os que no salimos del barco."
-  - <Character>k__BackingField: {fileID: 0}
     dialogLine: "Basta de ch\xE1chara, a saber de d\xF3nde ha salido esa mermelada
-      manoseada, bajamos ya y que vaya preparando la cena le friegapl\u2026 le Cocinere."
+      manoseada, bajamos ya y que vaya preparando la cena le friegapl\u2026 le cocinere."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Gracias por perdonarme, supongo\u2026"

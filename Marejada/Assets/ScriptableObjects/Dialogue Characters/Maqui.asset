@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Maqui
   m_EditorClassIdentifier: 
   characterName: Maqui
-  profilePhoto: {fileID: 21300000, guid: f96eb76e3a6db7c4c960f7b361aee802, type: 3}
+  profilePhoto: {fileID: 21300000, guid: ca21f42942eb8694cba314cb4e1f48a2, type: 3}
   emotions: []

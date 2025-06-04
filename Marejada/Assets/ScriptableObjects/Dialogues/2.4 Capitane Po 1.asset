@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 2.4 Capitane Po 1
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: " *\xBFQu\xE9 es ese ruidito insoportable? \xBFEs un sollozo?*\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Jooolines\u2026 Quiero irme con mi mam\xE1!!!"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: " *Oh, no, menudo berrinche\u2026*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: SOY UN FRAUDE, cocinere, UN FRAUDE!!
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: ??
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "NUNCA APROB\xC9 LA ACADEMIA DE CAPITANES!! Me dieron el t\xEDtulo
+      porque mi pap\xE1  era amigo de le directore!! Y copi\xE9 en el examen de Sistemas
+      y Tecnolog\xEDas para la Navegaci\xF3n Prudente!!! Jam\xE1s estuve preparade
+      para prever el fin del mar!! Soy un fraude\u2026 Os he fallado\u2026"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFPero qui\xE9n pod\xEDa estar preparade? Claro que no es tu culpa
+      (tampoco es la m\xEDa por ducharme 2 minutos m\xE1s, ejem, ejem\u2026). "
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Por cierto, \xBFqui\xE9n es Mipap\xE1?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*\xBFPero por qu\xE9 abre tanto los ojos? \xBFQu\xE9 he dicho?*\r\n"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "No es TU pap\xE1, es MI pap\xE1!! MIII pap\xE1!!!"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Aaaah, \xBFeso es une padre? \xBFAs\xED lo llamas? No conozco muy
+      bien la jerga del mundo antiguo, esas cosas de las familias antiguas nunca
+      las entend\xED. Siempre me hizo mucha gracia la palabra \u201Ccu\xF1ado\u201D,
+      no tengo ni idea de qu\xE9 es, pero suena a que te arruina el apetito para
+      todo el d\xEDa."
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Olvidaba que la gente com\xFAn, como t\xFA, no ha tenido el privilegio
+      de nacer en el seno de una familia tradicional, al estilo del mundo antiguo."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFEstilo une padre ausente y une madre hastiade, quieres decir?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "NOO!!! Estilo un padre trabajador, hecho a s\xED mismo, y una madre
+      abnegada y devota!!"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Wow, hasta con pronombres antiguos, \xBFtambi\xE9n pintabais b\xFAfalos
+      en las paredes?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: '*Ay, mira esa carita, se va a acabar enfadando*'
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "PERDONA pero mi papi es el due\xF1o de una multiplanetaria del combustible
+      sonoro, el mismo que alimenta este barco!! Bueno, alimentaba\u2026"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Pues a ver si le dices a TU papi que mejore un poquito la calidad
+      de esas ondas de sonido, que tenemos el barco que se cae a cachos, y les pobres
+      maquinistas est\xE1n fatal de defensas por esa bazofia de ruido que tienen
+      que comer, si pudiera yo aderezarlo un poquito\u2026"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Por desgracia para elles, la vida me regal\xF3 estas manos privilegiadas
+      para la cocina, pero no una voz armoniosa."
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Yo he intentado ayudarles, pero nunca me quieren escuchar, no aprecian
+      mi talento\u2026"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFCu\xE1l talento?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Tienes raz\xF3n, SOY UN FRAUDE!! Mi padre me quiere lejos de su
+      empresa, mis hermanos son los \xFAnicos que importan y a m\xED no me toman
+      en cuenta\u2026 No valgo para nada\u2026"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Encima aqu\xED nadie me respeta!! Ali-Cate no deja de re\xEDrse
+      de mi uniforme!!! "
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: Es que, francamente, Capitane Po, ese uniforme te queda horroroso.
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "T\xDA TAMBI\xC9N???"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "No, no, perdona, era broma\u2026 Haces un trabajo excepcional en
+      el barco\u2026 Haces\u2026 eh\u2026 cosas."
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: VEEEES?? NO HAGO NADA IMPORTANTE!!
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Pero mira, todo barco necesita une capitane. Es normal que te cueste
+      al principio, es tu primer trabajo, pero todo se aprende. Necesitas darte un
+      respiro y confiar m\xE1s en el resto. Anda, no llores.\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Bueno\u2026 Puede que tengas raz\xF3n\u2026 Ya dejo de llorar. Vaya
+      cara tendr\xE9 ahora!! Todo el mundo va a saber que he llorado, es imposible
+      no notar la diferencia con la carita hermosa de piel coreana que me deja el
+      skincare."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Claro\u2026 eh\u2026 Bueno, nadie va a juzgarte. Es un momento dif\xEDcil
+      para todes."

@@ -33,7 +33,7 @@ MonoBehaviour:
     dialogLine: "bueno\u2026 quer\xEDa pedirte\u2026 \xBFsi de casualidad encuentras
       mermelada en tus paseos\u2026 me traer\xE1s un poquito? echo tanto de menos
       tomar tostadas con mermelada y t\xE9\u2026 \r"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Claro, seguro que me encuentro una mazmorra en mitad de la nada
       con une dragone jubilade cuyo tesoro es un cofre de mermelada.*\r"
@@ -41,6 +41,9 @@ MonoBehaviour:
       type: 2}
     dialogLine: "cuando era ni\xF1e sol\xEDa ir con une amiguite m\xEDe al bosque
       a tomar mermelada y contar estrellas\u2026 su favorita era la de frambuesa\u2026\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Yo apenas recuerdo cuando era ni\xF1e\u2026*"
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
     dialogLine: "una vez me perd\xED, no sabes qu\xE9 susto\u2026 cuando entr\xE9
@@ -56,13 +59,17 @@ MonoBehaviour:
       lomo\u2026 a\xFAn no s\xE9 qu\xE9 era\u2026 tambi\xE9n vi un caballo blanco\u2026
       no s\xE9 muy bien por qu\xE9 estaba ah\xED\u2026 \xA1Y casi pierdo mi mermelada!
       \r\r"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Esa ser\xEDa la vedadera cat\xE1strofe\u2026*\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
     dialogLine: "por suerte pude encontrar a mi amigue\u2026 ya ten\xEDa el t\xE9
       preparado pero estaba ya casi fr\xEDo...\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Nuestro \xFAltimo t\xE9 tambi\xE9n fue el m\xE1s fr\xEDo que he
+      tomado nunca\u2026*"
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
     dialogLine: "no le veo desde que entr\xE9 en este barco\u2026 espero que est\xE9
@@ -76,10 +83,14 @@ MonoBehaviour:
     dialogLine: "a\xFAn me queda un poquito de t\xE9\u2026 tambi\xE9n tengo este
       tarrito\u2026 he pensado en abrirlo muchas veces pero es lo \xFAltimo que me
       queda de elle\u2026  "
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: " *\xBFMe queda algo a m\xED de aquello?*"
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
     dialogLine: "si tan s\xF3lo encontrase un poquito de mermelada antes de que el
       mundo se acabe\u2026 si la encuentras podemos ir a contar las estrellas\u2026"
-  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "*Creo que deber\xEDa haber sido menos juzgone\u2026*"
+    dialogLine: "Alg\xFAn d\xEDa iremos, si es que para entonces a\xFAn queda alguna
+      estrella."
