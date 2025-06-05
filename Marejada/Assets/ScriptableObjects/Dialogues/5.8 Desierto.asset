@@ -15,5 +15,27 @@ MonoBehaviour:
   dialogTurnsList:
   - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
-    dialogLine: "*\xBFDeber\xEDamos explorar esta zona? Quiz\xE1 vale m\xE1s lo malo
-      conocido...*"
+    dialogLine: "*\xBFSer\xE1 verdad lo que dec\xEDa esa voz ronca a trav\xE9s de
+      la radio?*\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Me abruma imaginar lo triste que es que hayamos tenido que llegar
+      a este punto, el fracaso del fracaso, para poder salir lo m\xE1s m\xEDnimo
+      de las l\xF3gicas capitalistas.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*\xBFDeber\xEDa ignorar lo que escuch\xE9? M\xE1s que el adentrarme
+      en el desierto, me da miedo perder este oasis. Una promesa de cuidado mutuo
+      que me sacia lo suficiente para resistir la espera de \u201Cotro\u201D fin
+      del mundo.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Quiero parar un momento antes de seguir. No recuerdo la \xFAltima
+      vez que me sentiste tan presente en el descanso. Antes de tomar una decisi\xF3n,
+      deber\xEDa disfrutar de este lugar un ratito m\xE1s...*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Aprender ingl\xE9s con Maqui y Nista, resolver un puzle con Ali-Cate,
+      acompa\xF1ar con un vino a B. Llana, hacer una rutina de skincare con Capitane
+      Po, disfrutar del silencio con Walter, contar estrellas con Pachim\xFA\u2026
+      Lo pensar\xE9 tom\xE1ndome un caf\xE9...*"
