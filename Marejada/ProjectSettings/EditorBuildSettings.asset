@@ -5,23 +5,26 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/FPS/Scenes/IntroMenu.unity
     guid: 56e3faabc5bb30f49a68bb8f1292f988
-  - enabled: 1
+  - enabled: 0
     path: Assets/FPS/Scenes/WinScene.unity
     guid: 037d06fbede2b4041a843d9ee6fe750c
-  - enabled: 1
+  - enabled: 0
     path: Assets/FPS/Scenes/LoseScene.unity
     guid: 72e5c65a45893714484002914e3fd521
-  - enabled: 1
+  - enabled: 0
     path: Assets/FPS/Scenes/MainScene.unity
     guid: d794a2ef8ba31d847ad3c19d03e2ddb9
+  - enabled: 0
+    path: Assets/Scenes/BlockoutOasis_Replaced.unity
+    guid: 8b21eca69783de44eb75f516a7343424
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: baa09e5a7bd6b450d836281c3cae5eb1
   - enabled: 1
-    path: Assets/Scenes/BlockoutOasis_Replaced.unity
-    guid: 8b21eca69783de44eb75f516a7343424
+    path: Assets/Scenes/OasisFinal.unity
+    guid: f0261146a589a2f459993edab4e820ca
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
