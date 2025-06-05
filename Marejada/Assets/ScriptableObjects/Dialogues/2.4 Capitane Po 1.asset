@@ -18,10 +18,10 @@ MonoBehaviour:
     dialogLine: " *\xBFQu\xE9 es ese ruidito insoportable? \xBFEs un sollozo?*\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
-    dialogLine: "Jooolines\u2026 Quiero irme con mi mam\xE1!!!"
+    dialogLine: "Jooolines... Quiero irme con mi mam\xE1!!!"
   - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
-    dialogLine: " *Oh, no, menudo berrinche\u2026*"
+    dialogLine: " *Oh, no, menudo berrinche...*"
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
     dialogLine: SOY UN FRAUDE, cocinere, UN FRAUDE!!
@@ -33,11 +33,11 @@ MonoBehaviour:
     dialogLine: "NUNCA APROB\xC9 LA ACADEMIA DE CAPITANES!! Me dieron el t\xEDtulo
       porque mi pap\xE1  era amigo de le directore!! Y copi\xE9 en el examen de Sistemas
       y Tecnolog\xEDas para la Navegaci\xF3n Prudente!!! Jam\xE1s estuve preparade
-      para prever el fin del mar!! Soy un fraude\u2026 Os he fallado\u2026"
+      para prever el fin del mar!! Soy un fraude... Os he fallado..."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "\xBFPero qui\xE9n pod\xEDa estar preparade? Claro que no es tu culpa
-      (tampoco es la m\xEDa por ducharme 2 minutos m\xE1s, ejem, ejem\u2026). "
+      (tampoco es la m\xEDa por ducharme 2 minutos m\xE1s, ejem, ejem...). "
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Por cierto, \xBFqui\xE9n es Mipap\xE1?"
@@ -75,13 +75,13 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
     dialogLine: "PERDONA pero mi papi es el due\xF1o de una multiplanetaria del combustible
-      sonoro, el mismo que alimenta este barco!! Bueno, alimentaba\u2026"
+      sonoro, el mismo que alimenta este barco!! Bueno, alimentaba..."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Pues a ver si le dices a TU papi que mejore un poquito la calidad
       de esas ondas de sonido, que tenemos el barco que se cae a cachos, y les pobres
       maquinistas est\xE1n fatal de defensas por esa bazofia de ruido que tienen
-      que comer, si pudiera yo aderezarlo un poquito\u2026"
+      que comer, si pudiera yo aderezarlo un poquito..."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Por desgracia para elles, la vida me regal\xF3 estas manos privilegiadas
@@ -89,7 +89,7 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
     dialogLine: "Yo he intentado ayudarles, pero nunca me quieren escuchar, no aprecian
-      mi talento\u2026"
+      mi talento..."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "\xBFCu\xE1l talento?"
@@ -97,7 +97,7 @@ MonoBehaviour:
       type: 2}
     dialogLine: "Tienes raz\xF3n, SOY UN FRAUDE!! Mi padre me quiere lejos de su
       empresa, mis hermanos son los \xFAnicos que importan y a m\xED no me toman
-      en cuenta\u2026 No valgo para nada\u2026"
+      en cuenta... No valgo para nada..."
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
     dialogLine: "Encima aqu\xED nadie me respeta!! Ali-Cate no deja de re\xEDrse
@@ -110,8 +110,8 @@ MonoBehaviour:
     dialogLine: "T\xDA TAMBI\xC9N???"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "No, no, perdona, era broma\u2026 Haces un trabajo excepcional en
-      el barco\u2026 Haces\u2026 eh\u2026 cosas."
+    dialogLine: "No, no, perdona, era broma... Haces un trabajo excepcional en
+      el barco... Haces... eh... cosas."
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
     dialogLine: VEEEES?? NO HAGO NADA IMPORTANTE!!
@@ -122,11 +122,11 @@ MonoBehaviour:
       respiro y confiar m\xE1s en el resto. Anda, no llores.\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
-    dialogLine: "Bueno\u2026 Puede que tengas raz\xF3n\u2026 Ya dejo de llorar. Vaya
+    dialogLine: "Bueno... Puede que tengas raz\xF3n... Ya dejo de llorar. Vaya
       cara tendr\xE9 ahora!! Todo el mundo va a saber que he llorado, es imposible
       no notar la diferencia con la carita hermosa de piel coreana que me deja el
       skincare."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "Claro\u2026 eh\u2026 Bueno, nadie va a juzgarte. Es un momento dif\xEDcil
+    dialogLine: "Claro... eh... Bueno, nadie va a juzgarte. Es un momento dif\xEDcil
       para todes."

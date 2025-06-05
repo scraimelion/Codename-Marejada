@@ -39,7 +39,7 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
       type: 2}
     dialogLine: "\xBFEsto? \xBFAqu\xED? Es comodidad burguesa, es sentarse a esperar
-      el fin del sol\u2026 la p\xE9rdida del aura."
+      el fin del sol... la p\xE9rdida del aura."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Quiz\xE1s quedarse no resuelva nada."
