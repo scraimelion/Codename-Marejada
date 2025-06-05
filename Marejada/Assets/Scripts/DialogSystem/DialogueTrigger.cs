@@ -73,7 +73,9 @@ else
         {
             if (other.CompareTag("Player"))
             {
+                DialogueManager.Instance.UnPrepareDialog();
                 enAreaDialogo = false;
+                audioSource.Stop();
             }
         }
     }

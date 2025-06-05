@@ -15,15 +15,15 @@ MonoBehaviour:
   dialogTurnsList:
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: " *suavemente* \xBFmolesto? "
+    dialogLine: "\xBFMolesto? "
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
-    dialogLine: "Ay, cielo, qu\xE9 palabra tan fuerte. Digamos que\u2026 interrumpes
+    dialogLine: "Ay, cielo, qu\xE9 palabra tan fuerte. Digamos que... interrumpes
       mi digesti\xF3n."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Bueno, si prefieres me voy, pero pensaba que ya van varios d\xEDas
-      y podr\xEDamos\u2026 hablar."
+      y podr\xEDamos... hablar."
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
     dialogLine: "\xBFHablar de qu\xE9, cari\xF1o? \xBFVas a volver a la cocina? Eso
@@ -31,7 +31,7 @@ MonoBehaviour:
       fregapla... Perd\xF3n, cocinere estrella."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "*sarc\xE1stique* Que ternura, se nota que me extra\xF1aste."
+    dialogLine: "Qu\xE9 ternura, se nota que me extra\xF1aste."
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
     dialogLine: "\xBFExtra\xF1ar? \xBFExtra\xF1ar a qui\xE9n, queride? Yo no tengo
@@ -46,7 +46,7 @@ MonoBehaviour:
       p\xE9simo para la piel, m\xEDrate esas ojeras."
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "\xA1Estas ojeras son de preocupaci\xF3n! \xA1mira todo lo que ha
+    dialogLine: "\xA1Estas ojeras son de preocupaci\xF3n! \xA1Mira todo lo que ha
       pasado! M\xE1s encima, estar tres noches durmiendo a la intemperie, mientras
       ustedes estaban muy c\xF3modes en sus camarotes. "
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
@@ -56,8 +56,8 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Es lo \xFAnico que te preocupa, que no haya realizado mi trabajo.
-      Ni siquiera en estas condiciones dejas de controlar todo\u2026 y a todes."
+      Ni siquiera en estas condiciones dejas de controlar todo... y a todes."
   - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
       type: 2}
-    dialogLine: "\xA1Qu\xE9 va! No te sulfures. Mira que este Oasis te sienta bien,
+    dialogLine: "\xA1Qu\xE9 va! No te sulfures. Mira que este oasis te sienta bien,
       pero no es para emocionarse, cielo, a\xFAn estamos procesando lo que hiciste."

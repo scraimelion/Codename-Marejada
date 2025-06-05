@@ -50,7 +50,7 @@ MonoBehaviour:
       type: 2}
     dialogLine: "\xA1QUE PARECES UN PERSONAJE DE ESE MISMITO LIBRO DE HISTORIA HE
       DICHO! \xA1EST\xC1S SACADE DE OTRA \xC9POCA!"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Ay, mi adre, casi se carga la hoguera de los tres pu\xF1etazos
       que le ha dado con sus tres manos izquierdas*"
@@ -67,3 +67,38 @@ MonoBehaviour:
       O *INSERTE NOMBRE DE AUTOR CON \u201CCUESTIONABLES\u201D Y \u201CPRESUNTAS\u201D
       ACUSACIONES POR LAS QUE ESTAR\xCDA COMPLETAMENTE CANCELADO PERO QUE POR ALGUNA
       RAZ\xD3N DESCONOCIDA A ALI-CATE LE ENCANTA*."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: Bueno, si te digo la verdad...
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Qu\xE9 miedo me da esa cara.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
+      type: 2}
+    dialogLine: " \xA1COCINERE, POR FAVOR, CON-BATE AL NAZI! \xA1TE FALTA CALLE!"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Y a ti te falta escuchar otras experiencias de opresi\xF3n m\xE1s
+      all\xE1 de la tuya, Ali-Cate."
+  - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
+      type: 2}
+    dialogLine: JODER, CAMARADA.
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Quedo perpleje mirando a Ali-Cate tirar el martillo que llevaba
+      en una de las manos. Acierta con precisi\xF3n en el centro de una de las cajas
+      de provisiones que se han acumulado fuera del barco*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Ali-Cate, d\xE9monos un respiro, \xBFS\xED?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Le agarro de una de sus manos con la intenci\xF3n de devolverle
+      a la tierra y poco a poco estabiliza su respiraci\xF3n de nuevo.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
+      type: 2}
+    dialogLine: "Perd\xF3n, camarada, confieso que he perdido las formas... \xA1Pero
+      no la raz\xF3n!\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Bueno, estamos de acuerdo en no estar de acuerdo. \r\r"

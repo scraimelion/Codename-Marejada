@@ -32,24 +32,24 @@ MonoBehaviour:
       type: 2}
     dialogLine: "No era mi trabajo montar el campamento!!! Te recuerdo que te fue
       encomendada esa tarea a modo de penitencia por haber secado el mar!!! Era lo
-      m\xEDnimo que pod\xEDas hacer despu\xE9s de esa desvergonzada ducha de 8 minutos\u2026\r\r\r"
+      m\xEDnimo que pod\xEDas hacer despu\xE9s de esa desvergonzada ducha de 8 minutos...\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Por mi culpa, por mi culpa, \xA1por mi gran culpa!\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
-    dialogLine: "Te exijo que rehagas este campamento y que\u2026\r\r\r"
+    dialogLine: "Te exijo que rehagas este campamento y que...\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Bueno, entonces me pongo con el campamento, me temo que tendr\xE1n
       que seguir comiendo tostadas quemadas.\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
-    dialogLine: "\u2026\r\r\r"
+    dialogLine: "...\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
       type: 2}
-    dialogLine: "Quiz\xE1s el campamento puede esperar a ma\xF1ana\u2026 Pero ma\xF1ana
+    dialogLine: "Quiz\xE1s el campamento puede esperar a ma\xF1ana... Pero ma\xF1ana
       sin falta!!!\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "Como guste, su divina majestad.\r"
+    dialogLine: "Como guste su divina majestad.\r"

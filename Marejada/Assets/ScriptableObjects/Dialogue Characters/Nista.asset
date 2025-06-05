@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Nista
   m_EditorClassIdentifier: 
   characterName: Nista
-  profilePhoto: {fileID: 21300000, guid: 383fb0cc1a65aa54187ca80be5b746c0, type: 3}
+  profilePhoto: {fileID: 21300000, guid: 85edabce3bab45c4dbce6f444ec49c92, type: 3}
   emotions: []
