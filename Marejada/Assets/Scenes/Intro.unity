@@ -656,7 +656,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: El Ultimo Viaje de la Odisea 54
+  m_text: El Ultimo Viaje de la Odisea 5.4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: df92bcc99cd614fc2956f95e6ea0d242, type: 2}
   m_sharedMaterial: {fileID: 8916389164199207598, guid: df92bcc99cd614fc2956f95e6ea0d242,
