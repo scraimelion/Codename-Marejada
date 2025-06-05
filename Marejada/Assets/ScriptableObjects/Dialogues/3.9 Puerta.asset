@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
-  m_Name: "4.5 Pachim\xFA"
+  m_Name: 3.9 Puerta
   m_EditorClassIdentifier: 
   dialogTurnsList:
-  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
-    dialogLine: "nunca entender\xE9 que os guste ese caf\xE9 tan amargo... donde
-      est\xE9 un t\xE9 con mucho az\xFAcar..."
+    dialogLine: "*Si me concentro lo suficiente se escuchan las m\xE1quinas del nav\xEDo.
+      Parece que a\xFAn est\xE1 en funcionamiento.*"

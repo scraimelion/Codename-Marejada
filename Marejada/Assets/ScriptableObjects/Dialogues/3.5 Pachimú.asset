@@ -15,5 +15,5 @@ MonoBehaviour:
   dialogTurnsList:
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
-    dialogLine: "oye\u2026 \xBFcrees que deber\xEDa abrir la mermelada despu\xE9s
-      de todo? a lo mejor eso es lo que quer\xEDan decirme las estrellas\u2026"
+    dialogLine: "oye... \xBFcrees que deber\xEDa abrir la mermelada despu\xE9s
+      de todo? a lo mejor eso es lo que quer\xEDan decirme las estrellas..."
