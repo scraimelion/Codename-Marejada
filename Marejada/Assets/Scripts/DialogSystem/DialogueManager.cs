@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 namespace DialogueSystem
 {
@@ -24,8 +25,9 @@ namespace DialogueSystem
         [SerializeField] private AudioSource skipAudioSource;        // Sonido al omitir diálogo
 
         [Header("Progresión de dialálogos")]
-        [SerializeField] private int progresionFase1 = 0;
-        [SerializeField] private int progresionFase2 = 0;
+        [SerializeField] private bool[] progresionEnFase;
+        [SerializeField] private bool cambioDeFase;
+        [SerializeField] private UnityEvent accionCambioDeFase;
 
         // Posiciones de anclaje para animaciones de entrada/salida
         private readonly Vector2 dialogBoxScreenAnchorPosition = new(0, 0);      // Posición visible
@@ -55,6 +57,14 @@ namespace DialogueSystem
                 hablarBtnComponent.onClick.AddListener(ButtonClicked);
 
             }
+
+            cambioDeFase = false;
+            progresionEnFase = new bool[6];   
+            for (int i = 0; i < progresionEnFase.Length; i++)
+            {
+                progresionEnFase[i] = false;
+                Debug.Log(progresionEnFase[i]);
+            }
         }
         private void Update()
         {
@@ -77,6 +87,9 @@ namespace DialogueSystem
                     DisplayNextDialogTurn();
                 }
             }
+
+            // Checkea si se pasa a la fase 2
+            CheckDialogProgress();
         }
 
         // Propiedad pública que indica si el diálogo está activo
@@ -251,14 +264,26 @@ namespace DialogueSystem
 
         public void DialogProgress(int progress_id)
         {
-            if (progress_id == 0)
-            {
-                progresionFase1++;
+            progresionEnFase[progress_id] = true;
+        }
+
+        void CheckDialogProgress()
+        {
+            if (cambioDeFase)
+            { // Si la fase ya ha sido cambiada
+                return;
             }
-            else
+            foreach (bool flag in progresionEnFase)
             {
-                progresionFase2++;
+                if (!flag)
+                {
+                    return;
+                }
             }
+
+            // Sólo se llega aquí si la fase no ha cambiado y si la progresión está completada
+            cambioDeFase = true;
+            accionCambioDeFase.Invoke();
         }
 
     }
