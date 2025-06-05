@@ -18,7 +18,8 @@ MonoBehaviour:
     dialogLine: "\xBFQu\xE9 haces, Ali-Cate?"
   - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
       type: 2}
-    dialogLine: "Estoy arreglando este despertador que ten\xEDa en mi camarote. "
+    dialogLine: "Estoy arreglando el m\xF3dulo de humor de este gate mec\xE1nique
+      desagradecide, que ha estado muy est\xFApide \xFAltimamente. "
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Creo que lo est\xE1s haciendo mal, es para el otro lado..."
