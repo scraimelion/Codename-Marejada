@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogTurnsList:
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "Hola, \xBFC\xF3mo va todo? \xBFImagino que ya tienen otro nuevo
+    dialogLine: "\xA1Hola! \xBFC\xF3mo va todo? \xBFImagino que ya tienen otro nuevo
       proyecto entre manos?"
   - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
       type: 2}
@@ -40,10 +40,10 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
       type: 2}
     dialogLine: "\xA1Eso, hobbies!"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+  - <Character>k__BackingField: {fileID: 11400000, guid: 7b4eea5f4c1a54b49b8ca565ca9b52d1,
       type: 2}
     dialogLine: " <i>hehehehehehehe\u2026</i>"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Me estoy dando cuenta en este mismo momento que no hab\xEDa o\xEDdo
       re\xEDr nunca a Maqui y Nista. Su risa suena a electricidad est\xE1tica y resulta
@@ -54,26 +54,26 @@ MonoBehaviour:
       no sabemos si te sonar\xE1."
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
-    dialogLine: "<i>s\xE9 llama \u201Cingl\xE9s\u201D</i>"
+    dialogLine: "<i>S\xE9 llama \u201Cingl\xE9s\u201D.</i>"
   - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
       type: 2}
     dialogLine: Hello, you okay today?
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
-    dialogLine: <i>good thank you and you? </i>
+    dialogLine: <i>Good thank you and you? </i>
   - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
       type: 2}
-    dialogLine: good too, thank you.
+    dialogLine: Good too, thank you.
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
-    dialogLine: <i>you want eat?</i>
+    dialogLine: <i>You want eat?</i>
   - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
       type: 2}
     dialogLine: Yes, thank you, and you?
   - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
       type: 2}
-    dialogLine: "<i>same, same thank you\u2026</i>"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+    dialogLine: "<i>Same, same thank you\u2026</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Como siempre, Maqui y Nista comienzan a hablar cada vez m\xE1s
       para s\xED mismes y comprendo que la conversaci\xF3n conmigo ha terminado.*"

@@ -61,12 +61,7 @@ MonoBehaviour:
     dialogLine: "Estoy recuperando el tiempo perdido, ejerciendo la rabia que no
       se me permit\xEDa. Y ahora, si me concedes el gusto de una vez, se acabaron
       los maitines. Fuera de mi vista, fregaplatos."
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
-      type: 2}
-    dialogLine: "*Encuentro fugazmente en los ojos de W. un poco de vulnerabilidad
-      detr\xE1s del insulto y comprendo que a menudo el lenguaje no es el mejor m\xE9todo
-      de comunicaci\xF3n. No es necesario verbalizar para entenderse.*"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Brindamos con caf\xE9 sin decir nada m\xE1s y me alejo de su refugio
       en El Oasis. Ma\xF1ana, decido, le saludar\xE9 en silencio con esta misma mirada

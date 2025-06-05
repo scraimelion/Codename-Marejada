@@ -29,9 +29,12 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
       type: 2}
     dialogLine: Yo ppprrr prrrr, perfecciono el arte del desprecio.
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*No sab\xEDa que Walter pudiese ronronear jijiji*"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
-    dialogLine: "*Se r\xEDe t\xEDmidamente* \xBFFue eso un dejo de ternura?"
+    dialogLine: "\xBFFue eso un dejo de ternura?"
   - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
       type: 2}
     dialogLine: Fue un error de sistema, no lo documentes.

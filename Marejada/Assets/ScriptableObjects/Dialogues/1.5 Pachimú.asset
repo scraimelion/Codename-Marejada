@@ -15,44 +15,52 @@ MonoBehaviour:
   dialogTurnsList:
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
-    dialogLine: "No tiene sentido\u2026 No lo entiendo\u2026 Ah, hola, Cocinere\u2026"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
-      type: 2}
-    dialogLine: "Hola, Pachim\xFA. \xBFC\xF3mo van las estrellas? *De esta no le
-      avisaron jeje* \xBFAlguna pista de d\xF3nde se ha escondido el mar?\r"
+    dialogLine: "no tiene sentido\u2026 no lo entiendo\u2026 "
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
-    dialogLine: "\xBFPues te puedes creer que no? Nada, ni una peque\xF1ita pista\u2026
-      Adivinaron la crisis del combustible sonoro y la revoluci\xF3n de les robo-gatites
-      de compa\xF1\xEDa\u2026 Avisaron tambi\xE9n de la vez que Ali-Cate se enfad\xF3
-      con todes\u2026\r\r"
+    dialogLine: "ah, hola, cocinere\u2026\r\r\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Hola, Pachim\xFA. \xBFC\xF3mo van las estrellas?\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*De esta no le avisaron jeje*\r\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFAlguna pista de d\xF3nde se ha escondido el mar?\r\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "\xBFpues te puedes creer que no? nada... ni una peque\xF1ita pista\u2026
+      adivinaron la crisis del combustible sonoro y la revoluci\xF3n de les robo-gatites
+      de compa\xF1\xEDa\u2026 avisaron tambi\xE9n de la vez que ali-cate se enfad\xF3
+      con todes\u2026\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*\xA1\xBFCu\xE1l de todas?!*\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
-    dialogLine: "\u2026y de cuando le Capitane Po se cay\xF3 por la borda\u2026\r\r"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+    dialogLine: "\u2026y de cuando le capitane se cay\xF3 por la borda\u2026\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Incre\xEDble momento.*\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
-    dialogLine: "\xBFPero por qu\xE9 no me avisaron de esto? \xBFSer\xE1 que no supe
-      leerlas? No s\xE9\u2026 Seg\xFAn mi lectura, se avecina un florecimiento\u2026\r\r\r"
+    dialogLine: "\xBFpero por qu\xE9 no me avisaron de esto? \xBFser\xE1 que no supe
+      leerlas? no s\xE9\u2026 seg\xFAn mi lectura se avecina un florecimiento\u2026\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "No s\xE9, Pachim\xFA, yo no veo muchas flores por aqu\xED.\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
-    dialogLine: "Es que no lo entiendo\u2026 \xBFPor qu\xE9 ha pasado esto? \xBFT\xFA
-      lo entiendes? \xBFSeguro que no gastaste t\xFA el agua?\r\r\r\r"
+    dialogLine: "es que no lo entiendo\u2026 \xBFpor qu\xE9 ha pasado esto? \xBFt\xFA
+      lo entiendes? \xBFseguro que no gastaste t\xFA el agua?\r\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "Creo que ya hemos hablado de esto.\r\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
       type: 2}
-    dialogLine: "Ya\u2026 Es verdad que no tiene sentido\u2026 \xBFPero por qu\xE9?
-      Vaya, qu\xE9 complicado\u2026\r\r\r\r"
+    dialogLine: "ya\u2026 es verdad que no tiene sentido\u2026 \xBFpero por qu\xE9?
+      vaya, qu\xE9 complicado\u2026\r\r\r\r"
   - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
       type: 2}
     dialogLine: "No tengo ni idea, yo tampoco entiendo nada.\r\r\r\r\r"
@@ -60,6 +68,6 @@ MonoBehaviour:
       type: 2}
     dialogLine: "quiz\xE1 nos falt\xF3 mermelada\u2026 s\xED\u2026 eso es\u2026 mermelada
       para contar las estrellas\u2026  \r\r\r\r\r"
-  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
       type: 2}
     dialogLine: "*Ni le voy a preguntar\u2026*\r\r\r\r\r"

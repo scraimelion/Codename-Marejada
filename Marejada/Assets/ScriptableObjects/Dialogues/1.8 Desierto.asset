@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 1.8 Desierto
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*\xBFQu\xE9 sali\xF3 mal? Si todes dejaron de comer miel de palma,
+      eran vegetarianes, compraban ropa de segunda mano y ya no tomaban bebidas con
+      pajitas de un solo uso... Hmm supongo que el capitalismo fue m\xE1s r\xE1pido
+      que todas esas intenciones individuales de cambio.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
+      type: 2}
+    dialogLine: "\xA1COCINEREEE! Deja de escaquearte y vuelve al campamento, que
+      tenemos hambre."
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Wow, qu\xE9 potencia de voz.*"
