@@ -6,6 +6,15 @@ namespace DialogueSystem
 {
     public class DialogueTrigger : MonoBehaviour
     {
+    
+    if (DialogueManager.Instance != null)
+{
+    DialogueManager.Instance.StartDialogue(dialogue);
+}
+else
+{
+    Debug.LogError("❌ DialogueManager no encontrado.");
+}
         [SerializeField] private DialogueRoundSO dialogue;
         [SerializeField] private UnityEvent DialogEvents;
 
