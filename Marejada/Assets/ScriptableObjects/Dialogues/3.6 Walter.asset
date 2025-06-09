@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 3.6 Walter
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: " \xBFOtra vez aqu\xED? Se ve que no valoras tu vida."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Podr\xEDas agradecer que al menos alguien te viene a ver."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: 'Prefiero la indiferencia, tiene menos expectativas. '
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Se ve que est\xE1 cansade, no ha podido dormir bien con este sol,
+      mejor le dejo tranquile.*"

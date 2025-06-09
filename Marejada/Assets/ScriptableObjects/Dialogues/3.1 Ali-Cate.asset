@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 3.1 Ali-Cate
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*Me alegra haberme reconciliado con Ali-Cate despu\xE9s de todo.
+      No se le puede negar las labores tan importantes que hace para mantener el
+      barco en pie pero no podr\xEDa ser mayor estereotipo.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*Si buscase \u201Ccomunista\u201D en el diccionario saldr\xEDa una
+      foto de elle. Sus pantalones de trabajo, su exhibir las herramientas en el
+      mandil.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*Por no hablar de ese tatuaje de amor de adre horrible que tiene
+      sobre esos m\xFAsculos con el sudor resbalando por la piel, los colmillos afilados,
+      todas esas manos firmes...*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*No le puedo soportar y a la vez...  Ejem, ejem. Perd\xF3n, parece
+      que estar tanto tiempo bajo el sol me ha dado una insolaci\xF3n.*\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b820eecb013584ee8b264ce3c665ad7c,
+      type: 2}
+    dialogLine: "\xBFHola? \xBFMe est\xE1s escuchando, cocinere?\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Disculpa, no he escuchado nada de lo que has dicho. Hablemos luego
+      mejor, no me encuentro muy bien.\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "*Si a\xFAn hubiese agua, me dar\xEDa una ducha fr\xEDa.*\r\r"

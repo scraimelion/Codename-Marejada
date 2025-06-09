@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 2.2 Maqui Nista
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xA1Hola! \xBFC\xF3mo va todo? \xBFImagino que ya tienen otro nuevo
+      proyecto entre manos?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "La verdad es que \xFAltimamente hemos hablado les dos de que echamos
+      mucho de menos nuestro trabajo en el barco. "
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>Sincronizar las ondas de sonido con las olas del mar para hacer
+      funcionar todos los motores era una tarea que nos manten\xEDa unides.</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "Creemos que hacer la radio y el \u201Cmejor caf\xE9 del mundo\u201D
+      era una manera de mantenernos ocupades y hemos decidido que si este es el fin
+      del mundo, no vamos a perder el tiempo trabajando en proyectos."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "No recordamos la \xFAltima vez que tuvimos vacaciones as\xED que
+      queremos tener... "
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: <i> hobbies...</i>
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "\xA1Eso, hobbies!"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 7b4eea5f4c1a54b49b8ca565ca9b52d1,
+      type: 2}
+    dialogLine: " <i>hehehehehehehe...</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Me estoy dando cuenta en este mismo momento que no hab\xEDa o\xEDdo
+      re\xEDr nunca a Maqui y Nista. Su risa suena a electricidad est\xE1tica y resulta
+      extra\xF1amente contagiosa.*\n"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "Lo primero que queremos hacer es estudiar una lengua muerta que
+      no sabemos si te sonar\xE1."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>S\xE9 llama \u201Cingl\xE9s\u201D.</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: Hello, you okay today?
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: <i>Good thank you and you? </i>
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: Good too, thank you.
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: <i>You want eat?</i>
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: Yes, thank you, and you?
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>Same, same thank you...</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Como siempre, Maqui y Nista comienzan a hablar cada vez m\xE1s
+      para s\xED mismes y comprendo que la conversaci\xF3n conmigo ha terminado.*"

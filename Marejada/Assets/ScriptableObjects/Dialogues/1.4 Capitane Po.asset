@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 1.4 Capitane Po
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Pero qu\xE9 desastre es este!!! Qu\xE9 verg\xFCenza de campamento!!! "
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: ...
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "En la Escuela de Capitanes Superimportantes jam\xE1s habr\xEDan
+      aceptado una disposici\xF3n tan lamentable!!! Qu\xE9 dir\xEDa le excelent\xEDsime
+      Capitane Fando si viera semejante escena!!! \r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Si hubieras salido del barco cuando sal\xED yo, en vez de quedarte
+      dentro jugando a quemar tostadas, habr\xEDas podido ayudarme a hacerlo mejor.\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "No era mi trabajo montar el campamento!!! Te recuerdo que te fue
+      encomendada esa tarea a modo de penitencia por haber secado el mar!!! Era lo
+      m\xEDnimo que pod\xEDas hacer despu\xE9s de esa desvergonzada ducha de 8 minutos...\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Por mi culpa, por mi culpa, \xA1por mi gran culpa!\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Te exijo que rehagas este campamento y que...\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Bueno, entonces me pongo con el campamento, me temo que tendr\xE1n
+      que seguir comiendo tostadas quemadas.\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "...\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: dc1797d6af62cff48924b7ccf3265732,
+      type: 2}
+    dialogLine: "Quiz\xE1s el campamento puede esperar a ma\xF1ana... Pero ma\xF1ana
+      sin falta!!!\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Como guste su divina majestad.\r"

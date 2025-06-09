@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 1.2 Maquinistas
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "Si el \xE1ngulo es de menos de 45 recuerda que tampoco podemos redondear..."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>Hacia arriba, lo s\xE9.</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: Vale, pues no lo parece.
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>Solo estaba haciendo una prueba para ver c\xF3mo reaccionaba
+      al l\xEDmite, \xA1Pero si quieres lo haces t\xFA!</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "No, disculpa. Conf\xEDo plenamente en tus capacidades de calibraci\xF3n.
+      Pondr\xEDa la mano en el fuego por ti."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>Bueno, t\xE9cnicamente aunque \u201Cpusieras la mano en el fuego\u201D
+      por m\xED no te quemar\xEDas, ya que al estar nuestros cuerpos compuestos de
+      energ\xEDa el\xE9ctrica ser\xEDa biol\xF3gicamente imposible.</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: Cierto.
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: <i>Osea que esa promesa no vale.</i>
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "No valdr\xEDa, no."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: Ejem, ejem.
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "Perd\xF3n, cocinere, no te hab\xEDamos o\xEDdo llegar."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>Llegas justo a tiempo para probar el resultado de nuestro \xFAltimo
+      experimento.</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFQu\xE9 est\xE1n haciendo?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "Despu\xE9s del naufragio, la tripulaci\xF3n ten\xEDa cada vez m\xE1s
+      tiempo libre para tomar bebestibles..."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: <i>...y otras actividades de ocio nocturno...</i>
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "...as\xED que hemos estado haciendo pruebas para refinar el dispositivo
+      \u201Ccafetera\u201D para combatir el estado alterado del cuerpo com\xFAnmente
+      conocido como \u201Cresaca\u201D."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>Hemos dado con la \u201Creceta\u201D perfecta para hacer del
+      aparato lo m\xE1s eficiente posible.</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "Pru\xE9balo."
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Acepto la taza que me ofrecen les maquinistas con un poco de miedo,
+      \xBFA qu\xE9 se referir\xE1n con \u201Ceficiente\u201D? Cuando le doy un sorbo
+      al caf\xE9 todo toma claridad: indudablemente esto te despertar\xEDa de hasta
+      la peor resaca, jam\xE1s hab\xEDa probado algo tan amargo.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "\xBFC\xF3mo est\xE1?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Cumple su funci\xF3n a la perfecci\xF3n."
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Veo a Maqui y Nista c\xF3mo se miran satisfeches por un par de
+      segundos y autom\xE1ticamente comienzan a reorganizar los cables que les rodean
+      dando por terminado su proyecto*\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>Toca ponernos con lo que realmente quer\xEDamos modificar...</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "...un artefacto de anta\xF1o llamado \u201Cradio\u201D. Encontramos
+      una en el almac\xE9n del barco cuando estuvimos sacando las provisiones al
+      campamento. Nosotres tambi\xE9n vamos a necesitar comer...\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "<i>...y como nuestra dieta consiste de ondas de sonido pensamos
+      que esta ser\xEDa la soluci\xF3n perfecta.</i>"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "Curiosamente la \u201Cradio\u201D tiene una anatom\xEDa parecida
+      a la nuestra."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d1ce3ee8854b056489a549d1df57b06a,
+      type: 2}
+    dialogLine: "La intenci\xF3n es a\xF1adirle un mecanismo de comunicaci\xF3n:
+      el \u201Cwalkie talkie\u201D."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9f89f9362dd6e45e8bf5fe097bac82aa,
+      type: 2}
+    dialogLine: "Esto la acondicionar\xE1 para que adem\xE1s de generar \u201Cm\xFAsica\u201D,
+      nos permita captar la se\xF1al de cualquier otro dispositivo que est\xE9 a
+      una distancia relativamente cercana a nuestro campamento."
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Cuando Maqui y Nista comienzan a hablar cada vez m\xE1s para s\xED
+      mismes, comprendo que la conversaci\xF3n conmigo ha terminado.*"

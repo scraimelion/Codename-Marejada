@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 4.3 B. Llana
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "\xBFSigues aqu\xED? \xA1Qu\xE9 perseverancia la tuya!\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "No me dejas tranquile ni por un segundo, siempre me atacas.\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "Ciele, no te confundas, esto no es un ataque, eso ya deber\xEDas
+      saberlo.\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Siempre tan esquiva, siempre tan compuesta. Un t\xE9mpano de hielo,
+      no sientes nada y flotas sola en el mar.\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "\xBFEso fue una broma o un insulto? \r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d536baf620106554f92f474226fb7be8,
+      type: 2}
+    dialogLine: "T\xF3malo como quieras. \r"

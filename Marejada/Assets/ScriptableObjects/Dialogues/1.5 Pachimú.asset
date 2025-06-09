@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: "1.5 Pachim\xFA"
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "no tiene sentido... no lo entiendo... "
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "ah, hola, cocinere...\r\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Hola, Pachim\xFA. \xBFC\xF3mo van las estrellas?\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*De esta no le avisaron jeje*\r\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFAlguna pista de d\xF3nde se ha escondido el mar?\r\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "\xBFpues te puedes creer que no? nada... ni una peque\xF1ita pista...
+      adivinaron la crisis del combustible sonoro y la revoluci\xF3n de les robo-gatites
+      de compa\xF1\xEDa... avisaron tambi\xE9n de la vez que ali-cate se enfad\xF3
+      con todes...\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*\xA1\xBFCu\xE1l de todas?!*\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "...y de cuando le capitane se cay\xF3 por la borda...\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Incre\xEDble momento.*\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "\xBFpero por qu\xE9 no me avisaron de esto? \xBFser\xE1 que no supe
+      leerlas? no s\xE9... seg\xFAn mi lectura se avecina un florecimiento...\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "No s\xE9, Pachim\xFA, yo no veo muchas flores por aqu\xED.\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "es que no lo entiendo... \xBFpor qu\xE9 ha pasado esto? \xBFt\xFA
+      lo entiendes? \xBFseguro que no gastaste t\xFA el agua?\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Creo que ya hemos hablado de esto.\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "ya... es verdad que no tiene sentido... \xBFpero por qu\xE9?
+      vaya, qu\xE9 complicado...\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "No tengo ni idea, yo tampoco entiendo nada.\r\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 70c41985144386c4a8c2a61a76f2a372,
+      type: 2}
+    dialogLine: "quiz\xE1 nos falt\xF3 mermelada... s\xED... eso es... mermelada
+      para contar las estrellas...  \r\r\r\r\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Ni le voy a preguntar...*\r\r\r\r\r"

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 0.3 Walter
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "\r\xBFYa te has cansado de dar vueltas por este secarral? Estaba
+      esperando que no volvieses de tu rid\xEDculo paseo de fl\xE2neur provinciano."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "Buenos d\xEDas a ti tambi\xE9n...\r"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "\xBFVas a volver a intentar que te dejen entrar? He o\xEDdo que
+      tienen hambre, deber\xEDamos esperar a que se coman les unes a les otres."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "En realidad iba a decirles que salieran, pero me tienta tu plan.
+      \xBFAmaneciste hoy de mejor humor?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "El d\xEDa era extraordinario hasta que apareciste. Un d\xEDa m\xE1s
+      (o un d\xEDa menos) aguantando tu presencia, no s\xE9 cu\xE1ntos m\xE1s podr\xE9
+      soportar."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "Una ma\xF1ana de estas acabamos teniendo m\xE1s que palabras, por
+      liste. Deja de preguntarme c\xF3mo estoy cada d\xEDa, me amargas el caf\xE9."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "T\xFA tambi\xE9n amargas el m\xEDo. Aun as\xED al menos hago el
+      esfuerzo de saludarte cada ma\xF1ana y no parece que no hay..."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "Cocinere, s\xE9 que eres impresionable e insultantemente sensible
+      pero conf\xEDo que no seas tan est\xFApide como aparentas. Mi rabia no est\xE1
+      dirigida, espero que nunca te hayas tomado personalmente mi elocuente astucia
+      envenenada."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "Imagina que te construyen como gato de compa\xF1\xEDa con la \xFAnica
+      finalidad de servir a otres aplacando la soledad desmedida de una civilizaci\xF3n
+      muerta en vida. Ansiaba la solitud cada minuto."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "En una situaci\xF3n sin salida, no tengo otra elecci\xF3n que la
+      de terminar con mi vida y condenarme al exilio del mar. "
+  - <Character>k__BackingField: {fileID: 11400000, guid: 9122c519739bffc4ca453c537aaaaf5a,
+      type: 2}
+    dialogLine: "Estoy recuperando el tiempo perdido, ejerciendo la rabia que no
+      se me permit\xEDa. Y ahora, si me concedes el gusto de una vez, se acabaron
+      los maitines. Fuera de mi vista, fregaplatos."
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*Brindamos con caf\xE9 sin decir nada m\xE1s y me alejo de su refugio
+      en El Oasis. Ma\xF1ana, decido, le saludar\xE9 en silencio con esta misma mirada
+      c\xF3mplice.*"

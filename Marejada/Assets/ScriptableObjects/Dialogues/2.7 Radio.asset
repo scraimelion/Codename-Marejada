@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e94cf38a2697b4397819a9add42b02, type: 3}
+  m_Name: 2.7 Radio
+  m_EditorClassIdentifier: 
+  dialogTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 63382bcba7d9a774fb8689f1a7f38471,
+      type: 2}
+    dialogLine: kkkhhsdafhghj...
+  - <Character>k__BackingField: {fileID: 11400000, guid: b684fbd632a0a904c99e0ac58c5f9634,
+      type: 2}
+    dialogLine: "*\xBF\xBF\xBFQu\xE9 es eso que suena??? El sonido de una voz ronca
+      que se emite desde la radio me hace acercarme a ella y agarrar el walkie-talkie
+      r\xE1pidamente.*"
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFHola? \xBFHay alguien ah\xED?"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 63382bcba7d9a774fb8689f1a7f38471,
+      type: 2}
+    dialogLine: "Grrrrrr... Me has despertado de la siesta. Felicidades, amore. Casi
+      bato mi propio r\xE9cord de 2754 a\xF1os durmiendo."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBF\xBFQu\xE9 es esto?? \xBF\xBFQui\xE9n eres?? \xBF\xBFD\xF3nde
+      est\xE1s??"
+  - <Character>k__BackingField: {fileID: 11400000, guid: 63382bcba7d9a774fb8689f1a7f38471,
+      type: 2}
+    dialogLine: No he dormido bien. No me preguntes demasiado, si haces el favor.
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: Se ha secado el mar, estamos atrapades en medio de la nada.
+  - <Character>k__BackingField: {fileID: 11400000, guid: 63382bcba7d9a774fb8689f1a7f38471,
+      type: 2}
+    dialogLine: "\xBFOtra vez? Qu\xE9 pereza. No pienso ayudarles m\xE1s, me vuelvo
+      a dormir."
+  - <Character>k__BackingField: {fileID: 11400000, guid: d9371ab23b89cc94ca72700503bd2787,
+      type: 2}
+    dialogLine: "\xBFEsto ya hab\xEDa pasado antes? No entiendo nada."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 63382bcba7d9a774fb8689f1a7f38471,
+      type: 2}
+    dialogLine: "Me temo que no puedo ayudarte, yo tambi\xE9n tengo mis quehaceres,
+      que consisten en custodiar una mazmorra desde hace milenios. El viaje del h\xE9roe
+      hace tiempo que est\xE1 en declive, ya no tenemos visitantes, por eso he aceptado
+      mi vida de descanso y relajaci\xF3n."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 63382bcba7d9a774fb8689f1a7f38471,
+      type: 2}
+    dialogLine: "Me jubil\xE9 desde que pude, siendo a\xFAn muy jovencite, con s\xF3lo
+      5470 a\xF1os. Estoy disfrutando no sabes cu\xE1nto del descanso, el ganar ya
+      no se lleva. No compitas, haz compitas."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 63382bcba7d9a774fb8689f1a7f38471,
+      type: 2}
+    dialogLine: "Pero si quieres ac\xE9rcate y hablemos, hace tiempo que no escucho
+      un buen chisme. Ad\xE9ntrate al desierto y cerca de la ballena blanca encontrar\xE1s
+      mi no tan humilde morada."

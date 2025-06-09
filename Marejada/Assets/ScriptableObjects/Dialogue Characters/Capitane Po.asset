@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 472c8229ed275a24db883d191ba731cf, type: 3}
+  m_Name: Capitane Po
+  m_EditorClassIdentifier: 
+  characterName: Capitane Po
+  profilePhoto: {fileID: 21300000, guid: 34a38714d38424347bccc0cb15cebb48, type: 3}
+  emotions:
+  - emotionName: Angry
+    emotionSprite: {fileID: 21300000, guid: ea0bd3d3911abcd4794f49e9282d378b, type: 3}
